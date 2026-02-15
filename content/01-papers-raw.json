@@ -1,0 +1,1277 @@
+{
+  "metadata": {
+    "agent": "paper-collector",
+    "collected_at": "2026-02-15T21:05:19.653691",
+    "total_papers": 50,
+    "sources": [
+      "semantic_scholar",
+      "openalex"
+    ],
+    "keywords_used": [
+      "self-discovery",
+      "behavioral activation",
+      "journaling therapy",
+      "place attachment",
+      "sensory awareness",
+      "habit formation",
+      "mindfulness",
+      "self-reflection",
+      "experiential learning",
+      "environmental psychology",
+      "positive psychology",
+      "introspection"
+    ],
+    "total_api_requests": 16
+  },
+  "papers": [
+    {
+      "title": "Mindfulness-based therapy: a comprehensive meta-analysis.",
+      "authors": [
+        "B. Khoury",
+        "T. Lecomte",
+        "Guillaume Fortin",
+        "M. Massé",
+        "Phillip Therien",
+        "Vanessa Bouchard",
+        "Marie-Andrée Chapleau",
+        "Karine Paquin",
+        "S. Hofmann"
+      ],
+      "year": 2013,
+      "journal": "Clinical Psychology Review",
+      "doi": "10.1016/j.cpr.2013.05.005",
+      "citation_count": 1923,
+      "abstract": null,
+      "publication_type": "MetaAnalysis",
+      "keywords_matched": [
+        "journaling therapy"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/5fd31e268542ab8e56e3bf7a5b094df83240f46a",
+      "is_trusted_journal": true,
+      "paper_id": "P-001"
+    },
+    {
+      "title": "Scientific discovery in the age of artificial intelligence",
+      "authors": [
+        "Hanchen Wang",
+        "Tianfan Fu",
+        "Yuanqi Du",
+        "Wenhao Gao",
+        "Kexin Huang",
+        "Ziming Liu",
+        "P. Chandak",
+        "Shengchao Liu",
+        "Peter Van Katwyk",
+        "Andreea Deac",
+        "Anima Anandkumar",
+        "K. Bergen",
+        "Carla P. Gomes",
+        "Shirley Ho",
+        "Pushmeet Kohli",
+        "Joan Lasenby",
+        "J. Leskovec",
+        "Tie-Yan Liu",
+        "A. Manrai",
+        "D. Marks",
+        "Bharath Ramsundar",
+        "Le Song",
+        "Jimeng Sun",
+        "Jian Tang",
+        "Petar Velickovic",
+        "Max Welling",
+        "Linfeng Zhang",
+        "Connor W. Coley",
+        "Y. Bengio",
+        "M. Zitnik"
+      ],
+      "year": 2023,
+      "journal": "Nature",
+      "doi": "10.1038/s41586-023-06221-2",
+      "citation_count": 1377,
+      "abstract": null,
+      "publication_type": "Review",
+      "keywords_matched": [
+        "self-discovery"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/f08060425aa8a212d74185ee23a08329b89abcd2",
+      "is_trusted_journal": true,
+      "paper_id": "P-002"
+    },
+    {
+      "title": "Music therapy for people with schizophrenia and schizophrenia-like disorders.",
+      "authors": [
+        "Monika Geretsegger",
+        "K. Mössler",
+        "Łucja Bieleninik",
+        "Xi-Jing Chen",
+        "T. Heldal",
+        "C. Gold"
+      ],
+      "year": 2017,
+      "journal": "Cochrane Database of Systematic Reviews",
+      "doi": "10.1002/14651858.CD004025.pub4",
+      "citation_count": 128,
+      "abstract": null,
+      "publication_type": "Review",
+      "keywords_matched": [
+        "journaling therapy"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/36397b83abd8abf7c98a6acd0997bf9bfa807892",
+      "is_trusted_journal": true,
+      "paper_id": "P-003"
+    },
+    {
+      "title": "nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation",
+      "authors": [
+        "Fabian Isensee",
+        "P. Jaeger",
+        "Simon A. A. Kohl",
+        "Jens Petersen",
+        "Klaus Hermann Maier-Hein"
+      ],
+      "year": 2020,
+      "journal": "Nature Methods",
+      "doi": "10.1038/s41592-020-01008-z",
+      "citation_count": 7656,
+      "abstract": null,
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "self-discovery"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/f28e387d4229c5f690ce4570a391c0f47e7155c7",
+      "is_trusted_journal": false,
+      "paper_id": "P-004"
+    },
+    {
+      "title": "Defining place attachment: A tripartite organizing framework",
+      "authors": [
+        "L. Scannell",
+        "R. Gifford"
+      ],
+      "year": 2010,
+      "journal": "",
+      "doi": "10.1016/J.JENVP.2009.09.006",
+      "citation_count": 2371,
+      "abstract": null,
+      "publication_type": "Review",
+      "keywords_matched": [
+        "place attachment"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/b765851702712cb21ad140bbcf0deb1a17f051dd",
+      "is_trusted_journal": false,
+      "paper_id": "P-005"
+    },
+    {
+      "title": "Place attachment: How far have we come in the last 40 years?",
+      "authors": [
+        "M. Lewicka"
+      ],
+      "year": 2011,
+      "journal": "",
+      "doi": "10.1016/J.JENVP.2010.10.001",
+      "citation_count": 2306,
+      "abstract": null,
+      "publication_type": "Review",
+      "keywords_matched": [
+        "place attachment"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/c63a79c438690548ccf12fd76e6642dfbf6020d5",
+      "is_trusted_journal": false,
+      "paper_id": "P-006"
+    },
+    {
+      "title": "RepeatModeler2 for automated genomic discovery of transposable element families",
+      "authors": [
+        "Jullien M. Flynn",
+        "R. Hubley",
+        "Clément Goubert",
+        "Jeb Rosen",
+        "A. Clark",
+        "C. Feschotte",
+        "A. Smit"
+      ],
+      "year": 2020,
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "doi": "10.1073/pnas.1921046117",
+      "citation_count": 2113,
+      "abstract": "Significance Genome sequences are being produced for more and more eukaryotic species. The bulk of these genomes are composed of parasitic, self-mobilizing transposable elements (TEs) that play important roles in organismal evolution. Thus there is a pressing need for developing software that can accurately identify the diverse set of TEs dispersed in genome sequences. Here we introduce RepeatModeler2, an easy-to-use package for the production of reference TE libraries which can be applied to any eukaryotic species. Through several major improvements over the previous version, RepeatModeler2 is able to produce libraries that recapitulate the known composition of three model species with some of the most complex TE landscapes. Thus RepeatModeler2 will greatly enhance the discovery and annotation of TEs in genome sequences. The accelerating pace of genome sequencing throughout the tree of life is driving the need for improved unsupervised annotation of genome components such as transposable elements (TEs). Because the types and sequences of TEs are highly variable across species, automated TE discovery and annotation are challenging and time-consuming tasks. A critical first step is the de novo identification and accurate compilation of sequence models representing all of the unique TE families dispersed in the genome. Here we introduce RepeatModeler2, a pipeline that greatly facilitates this process. This program brings substantial improvements over the original version of RepeatModeler, one of the most widely used tools for TE discovery. In particular, this version incorporates a module for structural discovery of complete long terminal repeat (LTR) retroelements, which are widespread in eukaryotic genomes but recalcitrant to automated identification because of their size and sequence complexity. We benchmarked RepeatModeler2 on three model species with diverse TE landscapes and high-quality, manually curated TE libraries: Drosophila melanogaster (fruit fly), Danio rerio (zebrafish), and Oryza sativa (rice). In these three species, RepeatModeler2 identified approximately 3 times more consensus sequences matching with >95% sequence identity and sequence coverage to the manually curated sequences than the original RepeatModeler. As expected, the greatest improvement is for LTR retroelements. Thus, RepeatModeler2 represents a valuable addition to the genome annotation toolkit that will enhance the identification and study of TEs in eukaryotic genome sequences. RepeatModeler2 is available as source code or a containerized package under an open license (https://github.com/Dfam-consortium/RepeatModeler, http://www.repeatmasker.org/RepeatModeler/).",
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "self-discovery"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/286949500a9d6b9e0b34578d5d71b455937892d5",
+      "is_trusted_journal": false,
+      "paper_id": "P-007"
+    },
+    {
+      "title": "How are habits formed: Modelling habit formation in the real world",
+      "authors": [
+        "Phillippa Lally",
+        "C. V. Jaarsveld",
+        "H. Potts",
+        "J. Wardle"
+      ],
+      "year": 2010,
+      "journal": "",
+      "doi": "10.1002/EJSP.674",
+      "citation_count": 1722,
+      "abstract": null,
+      "publication_type": "article",
+      "keywords_matched": [
+        "habit formation"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/c1104763806894bd668e3bf09b93669acaaf31d3",
+      "is_trusted_journal": false,
+      "paper_id": "P-008"
+    },
+    {
+      "title": "Gene therapy clinical trials worldwide to 2017: An update",
+      "authors": [
+        "S. L. Ginn",
+        "Anais K. Amaya",
+        "I. Alexander",
+        "Michael Edelstein",
+        "M. Abedi"
+      ],
+      "year": 2018,
+      "journal": "Journal of Gene Medicine",
+      "doi": "10.1002/jgm.3015",
+      "citation_count": 709,
+      "abstract": null,
+      "publication_type": "Review",
+      "keywords_matched": [
+        "journaling therapy"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/41de60899dbde6a936a50655139826b0fae78cce",
+      "is_trusted_journal": false,
+      "paper_id": "P-009"
+    },
+    {
+      "title": "Efficacy of Mindfulness-Based Cognitive Therapy in Prevention of Depressive Relapse: An Individual Patient Data Meta-analysis From Randomized Trials.",
+      "authors": [
+        "W. Kuyken",
+        "F. Warren",
+        "Rod S. Taylor",
+        "B. Whalley",
+        "C. Crane",
+        "G. Bondolfi",
+        "Rachel Hayes",
+        "M. Huijbers",
+        "Helen Ma",
+        "S. Schweizer",
+        "Z. Segal",
+        "A. Speckens",
+        "J. Teasdale",
+        "K. van Heeringen",
+        "Mark Williams",
+        "S. Byford",
+        "R. Byng",
+        "T. Dalgleish"
+      ],
+      "year": 2016,
+      "journal": "JAMA psychiatry",
+      "doi": "10.1001/jamapsychiatry.2016.0076",
+      "citation_count": 702,
+      "abstract": null,
+      "publication_type": "MetaAnalysis",
+      "keywords_matched": [
+        "journaling therapy"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/fb1dd6703636fcc0fbf5ae772b2557b4b03f5d49",
+      "is_trusted_journal": false,
+      "paper_id": "P-010"
+    },
+    {
+      "title": "Self-driving laboratory for accelerated discovery of thin-film materials",
+      "authors": [
+        "B. MacLeod",
+        "F. G. L. Parlane",
+        "T. Morrissey",
+        "F. Häse",
+        "L. Roch",
+        "Kevan E Dettelbach",
+        "R. Moreira",
+        "L. Yunker",
+        "M. Rooney",
+        "J. R. Deeth",
+        "V. Lai",
+        "G. J. Ng",
+        "H. Situ",
+        "R. Zhang",
+        "M. S. Elliott",
+        "T. H. Haley",
+        "D. Dvorak",
+        "Alán Aspuru-Guzik",
+        "J. Hein",
+        "C. Berlinguette"
+      ],
+      "year": 2019,
+      "journal": "Science Advances",
+      "doi": "10.1126/sciadv.aaz8867",
+      "citation_count": 529,
+      "abstract": "An autonomous laboratory for thin film discovery is used to optimize the doping and annealing of organic semiconductors. Discovering and optimizing commercially viable materials for clean energy applications typically takes more than a decade. Self-driving laboratories that iteratively design, execute, and learn from materials science experiments in a fully autonomous loop present an opportunity to accelerate this research process. We report here a modular robotic platform driven by a model-based optimization algorithm capable of autonomously optimizing the optical and electronic properties of thin-film materials by modifying the film composition and processing conditions. We demonstrate the power of this platform by using it to maximize the hole mobility of organic hole transport materials commonly used in perovskite solar cells and consumer electronics. This demonstration highlights the possibilities of using autonomous laboratories to discover organic and inorganic materials relevant to materials sciences and clean energy technologies.",
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "self-discovery"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/eeb6305630a5142f0f98c6098b6f0488aa8444c6",
+      "is_trusted_journal": false,
+      "paper_id": "P-011"
+    },
+    {
+      "title": "Therapeutic Drug Monitoring of Tacrolimus-Personalized Therapy: Second Consensus Report",
+      "authors": [
+        "M. Brunet",
+        "T. van Gelder",
+        "A. Åsberg",
+        "V. Haufroid",
+        "D. Hesselink",
+        "L. Langman",
+        "F. Lemaitre",
+        "P. Marquet",
+        "C. Seger",
+        "M. Shipkova",
+        "A. Vinks",
+        "P. Wallemacq",
+        "E. Wieland",
+        "J. Woillard",
+        "M. Barten",
+        "K. Budde",
+        "H. Colom",
+        "M. Dieterlen",
+        "L. Elens",
+        "K. Johnson-Davis",
+        "P. Kunicki",
+        "I. Macphee",
+        "S. Masuda",
+        "B. Mathew",
+        "O. Millán",
+        "T. Mizuno",
+        "D. Moes",
+        "C. Monchaud",
+        "Ofelia Noceti",
+        "T. Pawiński",
+        "N. Picard",
+        "R. V. van Schaik",
+        "C. Sommerer",
+        "N. T. Vethe",
+        "B. D. de Winter",
+        "U. Christians",
+        "S. Bergan"
+      ],
+      "year": 2019,
+      "journal": "Therapeutic Drug Monitoring",
+      "doi": "10.1097/FTD.0000000000000640",
+      "citation_count": 521,
+      "abstract": "Abstract: Ten years ago, a consensus report on the optimization of tacrolimus was published in this journal. In 2017, the Immunosuppressive Drugs Scientific Committee of the International Association of Therapeutic Drug Monitoring and Clinical Toxicity (IATDMCT) decided to issue an updated consensus report considering the most relevant advances in tacrolimus pharmacokinetics (PK), pharmacogenetics (PG), pharmacodynamics, and immunologic biomarkers, with the aim to provide analytical and drug-exposure recommendations to assist TDM professionals and clinicians to individualize tacrolimus TDM and treatment. The consensus is based on in-depth literature searches regarding each topic that is addressed in this document. Thirty-seven international experts in the field of TDM of tacrolimus as well as its PG and biomarkers contributed to the drafting of sections most relevant for their expertise. Whenever applicable, the quality of evidence and the strength of recommendations were graded according to a published grading guide. After iterated editing, the final version of the complete document was approved by all authors. For each category of solid organ and stem cell transplantation, the current state of PK monitoring is discussed and the specific targets of tacrolimus trough concentrations (predose sample C0) are presented for subgroups of patients along with the grading of these recommendations. In addition, tacrolimus area under the concentration–time curve determination is proposed as the best TDM option early after transplantation, at the time of immunosuppression minimization, for special populations, and specific clinical situations. For indications other than transplantation, the potentially effective tacrolimus concentrations in systemic treatment are discussed without formal grading. The importance of consistency, calibration, proficiency testing, and the requirement for standardization and need for traceability and reference materials is highlighted. The status for alternative approaches for tacrolimus TDM is presented including dried blood spots, volumetric absorptive microsampling, and the development of intracellular measurements of tacrolimus. The association between CYP3A5 genotype and tacrolimus dose requirement is consistent (Grading A I). So far, pharmacodynamic and immunologic biomarkers have not entered routine monitoring, but determination of residual nuclear factor of activated T cells–regulated gene expression supports the identification of renal transplant recipients at risk of rejection, infections, and malignancy (B II). In addition, monitoring intracellular T-cell IFN-g production can help to identify kidney and liver transplant recipients at high risk of acute rejection (B II) and select good candidates for immunosuppression minimization (B II). Although cell-free DNA seems a promising biomarker of acute donor injury and to assess the minimally effective C0 of tacrolimus, multicenter prospective interventional studies are required to better evaluate its clinical utility in solid organ transplantation. Population PK models including CYP3A5 and CYP3A4 genotypes will be considered to guide initial tacrolimus dosing. Future studies should investigate the clinical benefit of time-to-event models to better evaluate biomarkers as predictive of personal response, the risk of rejection, and graft outcome. The Expert Committee concludes that considerable advances in the different fields of tacrolimus monitoring have been achieved during this last decade. Continued efforts should focus on the opportunities to implement in clinical routine the combination of new standardized PK approaches with PG, and valid biomarkers to further personalize tacrolimus therapy and to improve long-term outcomes for treated patients.",
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "journaling therapy"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/957dcbb91cc19dd68636abf1d101eec68999ff8c",
+      "is_trusted_journal": false,
+      "paper_id": "P-012"
+    },
+    {
+      "title": "Phage Therapy for Antibiotic-Resistant Bacterial Infections.",
+      "authors": [
+        "G. Hatfull",
+        "R. Dedrick",
+        "R. Schooley"
+      ],
+      "year": 2021,
+      "journal": "Annual Review of Medicine",
+      "doi": "10.1146/annurev-med-080219-122208",
+      "citation_count": 424,
+      "abstract": "Antibiotic resistance in bacterial pathogens presents a substantial threat to the control of infectious diseases. Development of new classes of antibiotics has slowed in recent years due to pressures of cost and market profitability, and there is a strong need for new antimicrobial therapies. The therapeutic use of bacteriophages has long been considered, with numerous anecdotal reports of success. Interest in phage therapy has been renewed by recent clinical successes in case studies with personalized phage cocktails, and several clinical trials are in progress. We discuss recent progress in the therapeutic use of phages and contemplate the key factors influencing the opportunities and challenges. With strong safety profiles, the main challenges of phage therapeutics involve strain variation among clinical isolates of many pathogens, battling phage resistance, and the potential limitations of host immune responses. However, the opportunities are considerable, with the potential to enhance current antibiotic efficacy, protect newly developed antibiotics, and provide a last resort in response to complete antibiotic failure. Expected final online publication date for the Annual Review of Medicine, Volume 73 is January 2022. Please see http://www.annualreviews.org/page/journal/pubdates for revised estimates.",
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "journaling therapy"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/3f9e7dce70ae58cffed14f0e83b4ca229bbf2b3e",
+      "is_trusted_journal": false,
+      "paper_id": "P-013"
+    },
+    {
+      "title": "Factors Predicting Response, Perioperative Outcomes, and Survival Following Total Neoadjuvant Therapy for Borderline/Locally Advanced Pancreatic Cancer.",
+      "authors": [
+        "M. Truty",
+        "M. Kendrick",
+        "D. Nagorney",
+        "R. Smoot",
+        "S. Cleary",
+        "R. Graham",
+        "A. Goenka",
+        "C. Hallemeier",
+        "M. Haddock",
+        "W. Harmsen",
+        "A. Mahipal",
+        "R. McWilliams",
+        "T. Halfdanarson",
+        "A. Grothey"
+      ],
+      "year": 2019,
+      "journal": "Annals of Surgery",
+      "doi": "10.1097/SLA.0000000000003284",
+      "citation_count": 334,
+      "abstract": "MINI: Total neoadjuvant therapy, or systemic induction chemotherapy followed by chemoradiation, is an optimal preoperative sequencing strategy for patients with borderline resectable or locally advanced pancreatic adenocarcinoma. This strategy allows high rate of negative margins despite low frequency of radiologic downstaging with survival dependent on chemotherapy duration and response factors that are potentially modifiable by alteration in initial systemic therapy decisions.This is an open access article distributed under the terms of the Creative Commons Attribution-Non Commercial-No Derivatives License 4.0 (CCBY-NC-ND), where it is permissible to download and share the work provided it is properly cited. The work cannot be changed in any way or used commercially without permission from the journal. http://creativecommons.org/licenses/by-nc-nd/4.0 OBJECTIVE:: To identify predictive factors associated with operative morbidity, mortality, and survival outcomes in patients with borderline resectable (BR) or locally advanced (LA) pancreatic ductal adenocarcinoma (PDAC) undergoing total neoadjuvant therapy (TNT).\n\n\nBACKGROUND\nThe optimal preoperative treatment sequencing for BR/LA PDA is unknown. TNT, or systemic chemotherapy followed by chemoradiation (CRT), addresses both occult metastases and positive margin risks and thus is a potentially optimal strategy; however, factors predictive of perioperative and survival outcomes are currently undefined.\n\n\nMETHODS\nWe reviewed our experience in BR/LA patients undergoing resection from 2010 to 2017 following TNT assessing operative morbidity, mortality, and survival in order to define outcome predictors and response endpoints.\n\n\nRESULTS\nOne hundred ninety-four patients underwent resection after TNT, including 123 (63%) BR and 71 (37%) LA PDAC. FOLFIRINOX or gemcitabine along with nab-paclitaxel were used in 165 (85%) and 65 (34%) patients, with 36 (19%) requiring chemotherapeutic switch before long-course CRT and subsequent resection. Radiologic anatomical downstaging was uncommon (28%). En bloc venous and/or arterial resection was required in 125 (65%) patients with 94% of patients achieving R0 margins. The 90-day major morbidity and mortality was 36% and 6.7%, respectively. Excluding operative mortalities, the median, 1-year, 2-year, and 3-year recurrence-free survival (RFS) [overall survival (OS)] rates were 23.5 (58.8) months, 65 (96)%, 48 (78)%, and 32 (62)%, respectively. Radiologic downstaging, vascular resection, and chemotherapy regimen/switch were not associated with survival. Only 3 factors independently associated with prolonged survival, including extended duration (≥6 cycles) chemotherapy, optimal post-chemotherapy CA19-9 response, and major pathologic response. Patients achieving all 3 factors had superior survival outcomes with a survival detriment for each failing factor. In a subset of patients with interval metabolic (PET) imaging after initial chemotherapy, complete metabolic response highly correlated with major pathologic response.\n\n\nCONCLUSION\nOur TNT experience in resected BR/LA PDAC revealed high negative margin rates despite low radiologic downstaging. Extended duration chemotherapy with associated biochemical and pathologic responses highly predicted postoperative survival. Potential modifications of initial chemotherapy treatment include extending cycle duration to normalize CA19-9 or achieve complete metabolic response, or consideration of chemotherapeutic switch in order to achieve these factors may improve survival before moving forward with CRT and subsequent resection.This is an open access article distributed under the terms of the Creative Commons Attribution-Non Commercial-No Derivatives License 4.0 (CCBY-NC-ND), where it is permissible to download and share the work provided it is properly cited. The work cannot be changed in any way or used commercially without permission from the journal. http://creativecommons.org/licenses/by-nc-nd/4.0.",
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "journaling therapy"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/d2151cc2db248197ce433bab54df29befbb83f36",
+      "is_trusted_journal": false,
+      "paper_id": "P-014"
+    },
+    {
+      "title": "Improving Students’ Mathematical Problem Solving Ability and Self-Efficacy through Guided Discovery Learning in Local Culture Context",
+      "authors": [
+        "R. E. Simamora",
+        "Sahat Saragih",
+        "H. Hasratuddin"
+      ],
+      "year": 2018,
+      "journal": "International Electronic Journal of Mathematics Education",
+      "doi": "10.12973/IEJME/3966",
+      "citation_count": 316,
+      "abstract": "Qualified learning materials is needed in the efforts to improve the quality of teaching-learning mathematics. Qualified learning materials can be obtained through development research. Learning materials in this study were learning materials that were developed based on guided discovery learning model. The learning materials was also developed by integrating local culture into a guided learning model. The local culture in this study was adapted to the local culture of the students, namely the Batak Toba. Learning materials in this study were developed using the development model of Thiagarajan et al. (1974). The result of second trial showed that learning materials based guided discovery learning with Batak Toba context improved students’ mathematical problem solving ability and self-efficacy significantly. Based on the results of the study, it was suggested that mathematics teachers make an effort qualified learning materials and integrate local culture in mathematics learning.",
+      "publication_type": "article",
+      "keywords_matched": [
+        "self-discovery"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/6648eb54e5c30799efa888a5257304a807b5bebe",
+      "is_trusted_journal": false,
+      "paper_id": "P-015"
+    },
+    {
+      "title": "Self-Driving Laboratories for Chemistry and Materials Science",
+      "authors": [
+        "Gary Tom",
+        "Stefan P Schmid",
+        "Sterling G. Baird",
+        "Yang Cao",
+        "Kourosh Darvish",
+        "Han Hao",
+        "Stanley Lo",
+        "Sergio Pablo-García",
+        "E. M. Rajaonson",
+        "Marta Skreta",
+        "Naruki Yoshikawa",
+        "Samantha Corapi",
+        "G. Akkoc",
+        "Felix Strieth-Kalthoff",
+        "Martin Seifrid",
+        "Alán Aspuru-Guzik"
+      ],
+      "year": 2024,
+      "journal": "Chemical Reviews",
+      "doi": "10.1021/acs.chemrev.4c00055",
+      "citation_count": 297,
+      "abstract": "Self-driving laboratories (SDLs) promise an accelerated application of the scientific method. Through the automation of experimental workflows, along with autonomous experimental planning, SDLs hold the potential to greatly accelerate research in chemistry and materials discovery. This review provides an in-depth analysis of the state-of-the-art in SDL technology, its applications across various scientific disciplines, and the potential implications for research and industry. This review additionally provides an overview of the enabling technologies for SDLs, including their hardware, software, and integration with laboratory infrastructure. Most importantly, this review explores the diverse range of scientific domains where SDLs have made significant contributions, from drug discovery and materials science to genomics and chemistry. We provide a comprehensive review of existing real-world examples of SDLs, their different levels of automation, and the challenges and limitations associated with each domain.",
+      "publication_type": "Review",
+      "keywords_matched": [
+        "self-discovery"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/8afe5a5b28e37496bb24d5575d0348e7df663737",
+      "is_trusted_journal": false,
+      "paper_id": "P-016"
+    },
+    {
+      "title": "Place Attachment : Advances in Theory, Methods and Applications",
+      "authors": [
+        "L. Manzo",
+        "P. Devine‐Wright"
+      ],
+      "year": 2020,
+      "journal": "",
+      "doi": "10.4324/9780203757765",
+      "citation_count": 294,
+      "abstract": null,
+      "publication_type": "article",
+      "keywords_matched": [
+        "place attachment"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/42142aa53303578ed666e325a2d9a2c56a32fe2f",
+      "is_trusted_journal": false,
+      "paper_id": "P-017"
+    },
+    {
+      "title": "Uncovering the structure of self-regulation through data-driven ontology discovery",
+      "authors": [
+        "Ian W. Eisenberg",
+        "Patrick G. Bissett",
+        "A. Zeynep Enkavi",
+        "Jamie K Li",
+        "D. Mackinnon",
+        "L. Marsch",
+        "R. Poldrack"
+      ],
+      "year": 2019,
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-019-10301-1",
+      "citation_count": 292,
+      "abstract": "Psychological sciences have identified a wealth of cognitive processes and behavioral phenomena, yet struggle to produce cumulative knowledge. Progress is hamstrung by siloed scientific traditions and a focus on explanation over prediction, two issues that are particularly damaging for the study of multifaceted constructs like self-regulation. Here, we derive a psychological ontology from a study of individual differences across a broad range of behavioral tasks, self-report surveys, and self-reported real-world outcomes associated with self-regulation. Though both tasks and surveys putatively measure self-regulation, they show little empirical relationship. Within tasks and surveys, however, the ontology identifies reliable individual traits and reveals opportunities for theoretic synthesis. We then evaluate predictive power of the psychological measurements and find that while surveys modestly and heterogeneously predict real-world outcomes, tasks largely do not. We conclude that self-regulation lacks coherence as a construct, and that data-driven ontologies lay the groundwork for a cumulative psychological science. Scientific progress relies on integrating and building on existing knowledge. Here, the authors propose improving cumulative science by developing data-driven ontologies, and they apply this approach to understanding the construct of self-regulation.",
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "self-discovery"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/635a1eb5775a8f9f0122e7c4abe804e96da7b866",
+      "is_trusted_journal": false,
+      "paper_id": "P-018"
+    },
+    {
+      "title": "Virtual Reality Therapy in Mental Health.",
+      "authors": [
+        "P. Emmelkamp",
+        "K. Meyerbröker"
+      ],
+      "year": 2021,
+      "journal": "Annual Review of Clinical Psychology",
+      "doi": "10.1146/annurev-clinpsy-081219-115923",
+      "citation_count": 267,
+      "abstract": "Initially designed for the treatment of phobias, the use of virtual reality in phobic disorders has expanded to other mental health disorders such as posttraumatic stress disorder, substance-related disorders, eating disorders, psychosis, and autism spectrum disorder. The goal of this review is to provide an accessible understanding of why this approach is important for future practice, given its potential to provide clinically relevant information associated with the assessment and treatment of people suffering from mental illness. Most of the evidence is available for the use of virtual reality exposure therapy in anxiety disorder and posttraumatic stress disorder. There is hardly any evidence that virtual reality therapy is effective in generalized anxiety disorder and obsessive-compulsive disorder. There is increasing evidence that cue exposure therapy is effective in addiction and eating disorders. Studies into the use of virtual reality therapy in psychosis, autism spectrum disorder, and ADHD are promising. Expected final online publication date for the Annual Review of Clinical Psychology, Volume 17 is May 2021. Please see http://www.annualreviews.org/page/journal/pubdates for revised estimates.",
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "journaling therapy"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/f253185d44b4b72adca38eef5f173e848c77445d",
+      "is_trusted_journal": false,
+      "paper_id": "P-019"
+    },
+    {
+      "title": "Recombinant Adeno-Associated Virus Gene Therapy in Light of Luxturna (and Zolgensma and Glybera): Where Are We, and How Did We Get Here?",
+      "authors": [
+        "Allison M. Keeler",
+        "T. Flotte"
+      ],
+      "year": 2019,
+      "journal": "Annual Review of Virology",
+      "doi": "10.1146/annurev-virology-092818-015530",
+      "citation_count": 261,
+      "abstract": "The recent market approvals of recombinant adeno-associated virus (rAAV) gene therapies in Europe and the United States are landmark achievements in the history of modern science. These approvals are also anticipated to herald the emergence of a new class of therapies for monogenic disorders, which had hitherto been considered untreatable. These events can be viewed as stemming from the convergence of several important historical trends: the study of basic virology, the development of genomic technologies, the imperative for translational impact of National Institutes of Health-funded research, and the development of economic models for commercialization of rare disease therapies. In this review, these historical trends are described and the key developments that have enabled clinical rAAV gene therapies are discussed, along with an overview of the current state of the field and future directions. Expected final online publication date for the Annual Review of Virology Volume 6 is September 30, 2019. Please see http://www.annualreviews.org/page/journal/pubdates for revised estimates.",
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "journaling therapy"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/b2df7ac42f8f0456056ff5c4dd173280aeea6822",
+      "is_trusted_journal": false,
+      "paper_id": "P-020"
+    },
+    {
+      "title": "A meta-analysis of the relationship between place attachment and pro-environmental behaviour",
+      "authors": [
+        "A. Daryanto",
+        "Zening Song"
+      ],
+      "year": 2021,
+      "journal": "Journal of business research",
+      "doi": "10.1016/J.JBUSRES.2020.09.045",
+      "citation_count": 245,
+      "abstract": "Place attachment has been identified as a key construct that can explain pro-environmental behaviour. However, the precise strength of its effect remains undocumented. The aim of this article is to quantify the effects of place attachment on pro-environmental behaviour by means of a meta-analysis and to examine the contextual factors that may explain the variations in the effect sizes reported in previous research. Our results show that, first, the overall effect of place attachment on pro-environmental behaviour is positive, and the strength of the effect is moderate. Second, the effect is larger in collectivist vs. individualist cultures. Third, the effect also depends on the type of place user and is larger for tourists vs. local residents. Fourth, the general measure of place attachment produces a larger effect size than measures focusing on one of its dimensions. Finally, place-specific measures of pro-environmental behaviour produce a larger effect size than non-place-specific ones.",
+      "publication_type": "article",
+      "keywords_matched": [
+        "place attachment"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/93654a5c304aa2185521bc443515888d9e5b6f75",
+      "is_trusted_journal": false,
+      "paper_id": "P-021"
+    },
+    {
+      "title": "Photobiomodulation or low‐level laser therapy",
+      "authors": [
+        "Michael R Hamblin"
+      ],
+      "year": 2016,
+      "journal": "Journal of Biophotonics",
+      "doi": "10.1002/jbio.201670113",
+      "citation_count": 236,
+      "abstract": null,
+      "publication_type": "Editorial",
+      "keywords_matched": [
+        "journaling therapy"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/26e17ab843982aa1bf75870c48f8002eae6d8ca2",
+      "is_trusted_journal": false,
+      "paper_id": "P-022"
+    },
+    {
+      "title": "Empowering biomedical discovery with AI agents",
+      "authors": [
+        "Shanghua Gao",
+        "Ada Fang",
+        "Yepeng Huang",
+        "Valentina Giunchiglia",
+        "Ayush Noori",
+        "Jonathan Richard Schwarz",
+        "Yasha Ektefaie",
+        "Jovana Kondic",
+        "M. Zitnik"
+      ],
+      "year": 2024,
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2024.09.022",
+      "citation_count": 233,
+      "abstract": "We envision \"AI scientists\" as systems capable of skeptical learning and reasoning that empower biomedical research through collaborative agents that integrate AI models and biomedical tools with experimental platforms. Rather than taking humans out of the discovery process, biomedical AI agents combine human creativity and expertise with AI's ability to analyze large datasets, navigate hypothesis spaces, and execute repetitive tasks. AI agents are poised to be proficient in various tasks, planning discovery workflows and performing self-assessment to identify and mitigate gaps in their knowledge. These agents use large language models and generative models to feature structured memory for continual learning and use machine learning tools to incorporate scientific knowledge, biological principles, and theories. AI agents can impact areas ranging from virtual cell simulation, programmable control of phenotypes, and the design of cellular circuits to developing new therapies.",
+      "publication_type": "Review",
+      "keywords_matched": [
+        "self-discovery"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/8cedeb11139eab187e43414fd7097c5d578dad7c",
+      "is_trusted_journal": false,
+      "paper_id": "P-023"
+    },
+    {
+      "title": "Visitors’ Place Attachment and Destination Loyalty: Examining the Roles of Emotional Solidarity and Perceived Safety",
+      "authors": [
+        "V. Patwardhan",
+        "M. A. Ribeiro",
+        "Valsaraj Payini",
+        "K. Woosnam",
+        "J. Mallya",
+        "P. Gopalakrishnan"
+      ],
+      "year": 2020,
+      "journal": "Journal of Travel Research",
+      "doi": "10.1177/0047287518824157",
+      "citation_count": 224,
+      "abstract": "Hosting ethnically and culturally rich religious festivals provides visitors a glimpse into how a sense of togetherness and faith are not only established but strengthened through shared beliefs and ritualistic behavior. This research examines visitors’ destination loyalty through their emotional bonding with place, the emotional solidarity they experience with residents, and their perceived level of safety. Based on data collected from 813 visitors during the Attur Church Feast in Karkala, India, the results indicated that place attachment directly influences loyalty and two dimensions of emotional solidarity and, in turn, emotional solidarity has a positive effect on loyalty. Additionally, it was found that emotional solidarity partially mediates the effect of place attachment on destination loyalty. Finally, employing a moderated mediation analysis, visitor level of perceived safety at the festival partially moderated the indirect effect of place attachment on destination loyalty through emotional solidarity.",
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "place attachment"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/f35c0980ffd9f6545c62260635ea407acd7b79cd",
+      "is_trusted_journal": false,
+      "paper_id": "P-024"
+    },
+    {
+      "title": "Habit Formation and Behavior Change",
+      "authors": [
+        "B. Gardner",
+        "A. Rebar"
+      ],
+      "year": 2019,
+      "journal": "Oxford Research Encyclopedia of Psychology",
+      "doi": "10.1093/ACREFORE/9780190236557.013.129",
+      "citation_count": 217,
+      "abstract": "Within psychology, the term habit refers to a process whereby contexts prompt action automatically, through activation of mental context–action associations learned through prior performances. Habitual behavior is regulated by an impulsive process, and so can be elicited with minimal cognitive effort, awareness, control, or intention. When an initially goal-directed behavior becomes habitual, action initiation transfers from conscious motivational processes to context-cued impulse-driven mechanisms. Regulation of action becomes detached from motivational or volitional control. Upon encountering the associated context, the urge to enact the habitual behavior is spontaneously triggered and alternative behavioral responses become less cognitively accessible.\n By virtue of its cue-dependent automatic nature, theory proposes that habit strength will predict the likelihood of enactment of habitual behavior, and that strong habitual tendencies will tend to dominate over motivational tendencies. Support for these effects has been found for many health-related behaviors, such as healthy eating, physical activity, and medication adherence. This has stimulated interest in habit formation as a behavior change mechanism: It has been argued that adding habit formation components into behavior change interventions should shield new behaviors against motivational lapses, making them more sustainable in the long-term. Interventions based on the habit-formation model differ from non-habit-based interventions in that they include elements that promote reliable context-dependent repetition of the target behavior, with the aim of establishing learned context–action associations that manifest in automatically cued behavioral responses. Interventions may also seek to harness these processes to displace an existing “bad” habit with a “good” habit.\n Research around the application of habit formation to health behavior change interventions is reviewed, drawn from two sources: extant theory and evidence regarding how habit forms, and previous interventions that have used habit formation principles and techniques to change behavior. Behavior change techniques that may facilitate movement through discrete phases in the habit formation trajectory are highlighted, and techniques that have been used in previous interventions are explored based on a habit formation framework. Although these interventions have mostly shown promising effects on behavior, the unique impact on behavior of habit-focused components and the longevity of such effects are not yet known. As an intervention strategy, habit formation has been shown to be acceptable to intervention recipients, who report that through repetition, behaviors gradually become routinized. Whether habit formation interventions truly offer a route to long-lasting behavior change, however, remains unclear.",
+      "publication_type": "Review",
+      "keywords_matched": [
+        "habit formation"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/e3cb4b22fb0e06f11e1ba7b37f3a1962b1c5499c",
+      "is_trusted_journal": false,
+      "paper_id": "P-025"
+    },
+    {
+      "title": "Mindfulness-based stress reduction and mindfulness-based cognitive therapy for psychological health and well-being in nonclinical samples: A systematic review and meta-analysis.",
+      "authors": [
+        "Dawn Querstret",
+        "L. Morison",
+        "S. Dickinson",
+        "M. Cropley",
+        "M. John"
+      ],
+      "year": 2020,
+      "journal": "International Journal of Stress Management",
+      "doi": "10.1037/str0000165",
+      "citation_count": 216,
+      "abstract": "Much of the burden associated with poor mental health is associated with symptom experience in the general population. We conducted a systematic review and meta-analysis of studies conducted in non-clinical samples, evaluating Mindfulness-Based Programs (MBPs) for outcomes related to psychological health and well-being. We focussed on Mindfulness-Based Stress Reduction (MBSR) and Mindfulness-Based Cognitive Therapy (MBCT) because they have the strongest evidence base. We searched MEDLINE, PsycINFO, EMBASE and CINAHL (2006 – February, 2019) for published peer-reviewed journals articles of intervention studies evaluating MBCT or MBSR for psychological health and well-being in non-clinical samples. Data were pooled using a random-effects model and effect estimates were reported as Hedges’ g. We included 49 studies conducted in non-clinical samples (n=4733). When compared to a passive control, MBPs significantly reduced symptoms of rumination/worry ( g =-1.13, [-2.17, -0.08]), stress/psychological distress (g=-0.52 [-0.68, -0.36]), depression [g=-0.45 [-0.64, -0.26]), and anxiety (g=-0.44 [-0.65, -0.23]); and significantly improved quality of life/well-being (g=0.32 [0.10, 0.54]). In general, MBCT generated larger effect sizes than MBSR for all outcomes. This study provides evidence that in non-clinical samples, MBPs are associated with benefits to health and well-being. These findings add to the growing evidence-base suggesting that MBSR and MBCT may be effective approaches for sub-clinical levels of mental ill-health and could form part of the public mental health agenda. fibromyalgia; HIV/AIDS; pregnancy;",
+      "publication_type": "Review",
+      "keywords_matched": [
+        "journaling therapy"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/ecf14dca1e860d510b166acd8d0be30853fd10a6",
+      "is_trusted_journal": false,
+      "paper_id": "P-026"
+    },
+    {
+      "title": "Self-Supervised Transformers for Unsupervised Object Discovery using Normalized Cut",
+      "authors": [
+        "Yangtao Wang",
+        "XI Shen",
+        "S. Hu",
+        "Yuan Yuan",
+        "James L. Crowley",
+        "Dominique Vaufreydaz"
+      ],
+      "year": 2022,
+      "journal": "Computer Vision and Pattern Recognition",
+      "doi": "10.1109/CVPR52688.2022.01414",
+      "citation_count": 213,
+      "abstract": "Transformers trained with self-supervision using selfdistillation loss (DINO) have been shown to produce attention maps that highlight salient foreground objects. In this paper, we show a graph-based method that uses the selfsupervised transformer features to discover an object from an image. Visual tokens are viewed as nodes in a weighted graph with edges representing a connectivity score based on the similarity of tokens. Foreground objects can then be segmented using a normalized graph-cut to group self-similar regions. We solve the graph-cut problem using spectral clustering with generalized eigen-decomposition and show that the second smallest eigenvector provides a cutting solution since its absolute value indicates the likelihood that a token belongs to a foreground object. Despite its simplicity, this approach significantly boosts the performance of unsupervised object discovery: we improve over the recent state-of-the-art LOST by a margin of 6.9%, 8.1%, and 8.1% respectively on the VOC07, VOC12, and COCO20K. The performance can be further improved by adding a second stage class-agnostic detector (CAD). Our proposed method can be easily extended to unsupervised saliency detection and weakly supervised object detection. For unsupervised saliency detection, we improve IoU for 4.9%, 5.2%, 12.9% on ECSSD, DUTS, DUT-OMRON respectively compared to state-of-the-art. For weakly supervised object detection, we achieve competitive performance on CUB and ImageNet. Our code is available at: https://www.m-psi.fr/Papers/TokenCut2022/",
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "self-discovery"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/67804a5870b8a3a997c615784e17465889192bf6",
+      "is_trusted_journal": false,
+      "paper_id": "P-027"
+    },
+    {
+      "title": "Twenty-Five Years of Spinal Muscular Atrophy Research: From Phenotype to Genotype to Therapy, and What Comes Next.",
+      "authors": [
+        "B. Wirth",
+        "Mert Karakaya",
+        "M. Kye",
+        "Natalia Mendoza-Ferreira"
+      ],
+      "year": 2020,
+      "journal": "Annual review of genomics and human genetics (Print)",
+      "doi": "10.1146/annurev-genom-102319-103602",
+      "citation_count": 203,
+      "abstract": "Twenty-five years ago, the underlying genetic cause for one of the most common and devastating inherited diseases in humans, spinal muscular atrophy (SMA), was identified. Homozygous deletions or, rarely, subtle mutations of SMN1 cause SMA, and the copy number of the nearly identical copy gene SMN2 inversely correlates with disease severity. SMA has become a paradigm and a prime example of a monogenic neurological disorder that can be efficiently ameliorated or nearly cured by novel therapeutic strategies, such as antisense oligonucleotide or gene replacement therapy. These therapies enable infants to survive who might otherwise have died before the age of two and allow individuals who have never been able to sit or walk to do both. The major milestones on the road to these therapies were to understand the genetic cause and splice regulation of SMN genes, the disease's phenotype-genotype variability, the function of the protein and the main affected cellular pathways and tissues, the disease's pathophysiology through research on animal models, the windows of opportunity for efficient treatment, and how and when to treat patients most effectively. This review aims to bridge our knowledge from phenotype to genotype to therapy, not only highlighting the significant advances so far but also speculating about the future of SMA screening and treatment. Expected final online publication date for the Annual Review of Genomics and Human Genetics, Volume 21 is August 31, 2020. Please see http://www.annualreviews.org/page/journal/pubdates for revised estimates.",
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "journaling therapy"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/f1fbfc64a7ae6cfb3d9574120140fa9c2f95c93c",
+      "is_trusted_journal": false,
+      "paper_id": "P-028"
+    },
+    {
+      "title": "Habit Formation in Consumption: A Meta-Analysis",
+      "authors": [
+        "T. Havránek",
+        "Marek Rusňák",
+        "A. Sokolova"
+      ],
+      "year": 2017,
+      "journal": "",
+      "doi": "10.1016/J.EUROECOREV.2017.03.009",
+      "citation_count": 194,
+      "abstract": null,
+      "publication_type": "Review",
+      "keywords_matched": [
+        "habit formation"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/d3de5d44c88d11c02e6f70bd69258a41df33c185",
+      "is_trusted_journal": false,
+      "paper_id": "P-029"
+    },
+    {
+      "title": "The Influence of Place Attachment, Ad-Evoked Positive Affect, and Motivation on Intention to Visit: Imagination Proclivity as a Moderator",
+      "authors": [
+        "Sameer Hosany",
+        "Daniela Buzova",
+        "S. Sanz‐Blas"
+      ],
+      "year": 2020,
+      "journal": "Journal of Travel Research",
+      "doi": "10.1177/0047287519830789",
+      "citation_count": 182,
+      "abstract": "Integrating the theoretical foundations of symbolic interactionism, parasocial interaction, direct affect transfer, push and pull motivational framework, and narrative transportation, this study investigates the determinants of tourists’ intention to visit a destination using Heidi, a famous literary and television series persona, as a stimulus. Place attachment, ad-evoked positive affect, and motivation were theorized as antecedents of intention to visit and imagination proclivity as a moderator. The model was tested using data collected from 410 prospective Spanish tourists. Results show motivation and place attachment as key determinants of intention to visit among individuals with higher imagination proclivity, while positive affect was most relevant for individuals with low imagination proclivity. Findings expand our understanding of travel intention toward unvisited destinations, providing empirical support that place attachment, positive affect, and motivation are engendered by prior media exposure and moderated by tourists’ imagination proclivity.",
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "place attachment"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/ee3e359108e0de6930e171d5b75f20ec5526c728",
+      "is_trusted_journal": false,
+      "paper_id": "P-030"
+    },
+    {
+      "title": "Habit formation and change",
+      "authors": [
+        "L. Carden",
+        "Wendy Wood"
+      ],
+      "year": 2018,
+      "journal": "Current Opinion in Behavioral Sciences",
+      "doi": "10.1016/j.cobeha.2017.12.009",
+      "citation_count": 181,
+      "abstract": null,
+      "publication_type": "Review",
+      "keywords_matched": [
+        "habit formation"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/119f7ee508a28ef36b42739525eac46fe88bc5b7",
+      "is_trusted_journal": false,
+      "paper_id": "P-031"
+    },
+    {
+      "title": "Therapist‐supported Internet‐based cognitive behaviour therapy yields similar effects as face‐to‐face therapy for psychiatric and somatic disorders: an updated systematic review and meta‐analysis",
+      "authors": [
+        "E. Hedman-Lagerlöf",
+        "P. Carlbring",
+        "Frank Svärdman",
+        "H. Riper",
+        "P. Cuijpers",
+        "G. Andersson"
+      ],
+      "year": 2023,
+      "journal": "World Psychiatry",
+      "doi": "10.1002/wps.21088",
+      "citation_count": 174,
+      "abstract": "Providing therapist‐guided cognitive behaviour therapy via the Internet (ICBT) has advantages, but a central research question is to what extent similar clinical effects can be obtained as with gold‐standard face‐to‐face cognitive behaviour therapy (CBT). In a previous meta‐analysis published in this journal, which was updated in 2018, we found evidence that the pooled effects for the two formats were equivalent in the treatment of psychiatric and somatic disorders, but the number of published randomized trials was relatively low (n=20). As this is a field that moves rapidly, the aim of the current study was to conduct an update of our systematic review and meta‐analysis of the clinical effects of ICBT vs. face‐to‐face CBT for psychiatric and somatic disorders in adults. We searched the PubMed database for relevant studies published from 2016 to 2022. The main inclusion criteria were that studies had to compare ICBT to face‐to‐face CBT using a randomized controlled design and targeting adult populations. Quality assessment was made using the Cochrane risk of bias criteria (Version 1), and the main outcome estimate was the pooled standardized effect size (Hedges’ g) using a random effects model. We screened 5,601 records and included 11 new randomized trials, adding them to the 20 previously identified ones (total n=31). Sixteen different clinical conditions were targeted in the included studies. Half of the trials were in the fields of depression/depressive symptoms or some form of anxiety disorder. The pooled effect size across all disorders was g=0.02 (95% CI: –0.09 to 0.14) and the quality of the included studies was acceptable. This meta‐analysis further supports the notion that therapist‐supported ICBT yields similar effects as face‐to‐face CBT.",
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "journaling therapy"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/64566a0122940ae7d49790dc86feeb1f45f735d9",
+      "is_trusted_journal": false,
+      "paper_id": "P-032"
+    },
+    {
+      "title": "Adult antiretroviral therapy guidelines 2017",
+      "authors": [
+        "G. Meintjes",
+        "Michelle A. Moorhouse",
+        "S. Carmona",
+        "N. Davies",
+        "S. Dlamini",
+        "C. van Vuuren",
+        "T. Manzini",
+        "Moeketsi Mathe",
+        "Y. Moosa",
+        "J. Nash",
+        "J. Nel",
+        "Yoliswa Pakade",
+        "Joana Woods",
+        "G. V. Van Zyl",
+        "F. Conradie",
+        "F. Venter"
+      ],
+      "year": 2017,
+      "journal": "Southern African Journal of HIV Medicine",
+      "doi": "10.4102/sajhivmed.v18i1.776",
+      "citation_count": 172,
+      "abstract": "These guidelines are intended as an update to those published in the Southern African Journal of HIV Medicine in 2014 and the update on when to initiate antiretroviral therapy in 2015. Since the release of the previous guidelines, the scale-up of antiretroviral therapy (ART) in southern Africa has continued. New antiretroviral drugs have become available with improved efficacy, safety and robustness. The guidelines are intended for countries in the southern African region, which vary between lower and middle income.",
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "journaling therapy"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/07afd2140c4df1954969fbf14a9073b96e68a7a9",
+      "is_trusted_journal": false,
+      "paper_id": "P-033"
+    },
+    {
+      "title": "A new therapy for each patient: Evidence-based relationships and responsiveness.",
+      "authors": [
+        "J. Norcross",
+        "B. Wampold"
+      ],
+      "year": 2018,
+      "journal": "Journal of Clinical Psychology",
+      "doi": "10.1002/jclp.22678",
+      "citation_count": 165,
+      "abstract": "In this study, we introduce the journal issue devoted to evidence-based responsiveness and frame it within the work of the third interdivisional APA Task Force on Evidence-Based Relationships and Responsiveness. We summarize the meta-analytic results and clinical practices on the adaptations of psychotherapy to multiple transdiagnostic characteristics of the patient, including attachment style, culture (race/ethnicity), gender identity, coping style, therapy preferences, reactance level, religion and spirituality, sexual orientation, and stages of change. We then discuss the clinical and research process of determining what works, and what does not work, for whom. The limitations of the Task Force's work are outlined and frequently asked questions are addressed. The article closes with the Task Force's formal conclusions and 28 recommendations and with some reflections on fitting psychotherapy to the individual client.",
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "journaling therapy"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/757fdd742417bf9a55e3f8af31a686b66161eac0",
+      "is_trusted_journal": false,
+      "paper_id": "P-034"
+    },
+    {
+      "title": "The impacts of under-tourism and place attachment on residents’ life satisfaction",
+      "authors": [
+        "C. Pai",
+        "Haoran Chen",
+        "Timothy J. Lee",
+        "S. Hyun",
+        "Yumeng Liu",
+        "Yanqi Zheng"
+      ],
+      "year": 2023,
+      "journal": "Journal of Vacation Marketing",
+      "doi": "10.1177/13567667231164807",
+      "citation_count": 162,
+      "abstract": "The tourism industry is highly sensitive to negative environmental factors, as can be seen in the coronavirus disease 2019 pandemic, when many countries and regions shifted from over-tourism to under-tourism, resulting in the continuation of multiple serious impacts on destinations. To systematically reveal the specific impacts of under-tourism on tourism destinations, this study aims to (a) understand the impact of resident perceptions of under-tourism; (b) investigate the relationship between place attachment and resident perceptions of under-tourism, and (c) examine the relationships between the resident perception of under-tourism and life satisfaction. The perceived impacts of under-tourism are subdivided into positive economic impact, negative economic impact, positive social impact, negative social impact, and positive environmental impact, based on the triple bottom line and social exchange theory. The research was conducted with the involvement of 296 local residents and foreign workers in Macau. The findings show that place attachment has a positive impact on their perceived positive economic impact and positive social impact. Resident perceptions of positive economic impact, positive social impact, and positive environmental impact have a positive influence on their satisfaction with life, and negative economic impact and negative social impact have a negative influence on their satisfaction. Using the results of this study we expand the literature on social exchange theory in tourism, broaden the theory of resident perceptions of impact, and also provide relevant practical suggestions for destinations to recover and maintain sustainable development based on tourism.",
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "place attachment"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/119a78305f8578a47ea36b2b4bfc735e7f41fe68",
+      "is_trusted_journal": false,
+      "paper_id": "P-035"
+    },
+    {
+      "title": "Place-Oriented or People-Oriented Concepts for Destination Loyalty: Destination Image and Place Attachment versus Perceived Distances and Emotional Solidarity",
+      "authors": [
+        "A. Tasci",
+        "Abdullah Uslu",
+        "D. Stylidis",
+        "K. Woosnam"
+      ],
+      "year": 2021,
+      "journal": "Journal of Travel Research",
+      "doi": "10.1177/0047287520982377",
+      "citation_count": 160,
+      "abstract": "Many studies have modeled several different concepts to explain destination loyalty; however, none have integrated place-oriented (e.g., destination image, place attachment) and people-oriented concepts (e.g., cultural distance, social distance, and emotional solidarity) for their relative influences on loyalty. The current study tested the influence of destination image (place-oriented) and perceived distances (people-oriented) as antecedents of place attachment (place-oriented) and emotional solidarity (people-oriented) for their relative influences on destination loyalty. Survey data collected from both domestic (n=260) and international (n=250) visitors to a city in Turkey, Antalya, revealed that place-oriented concepts (cognitive and affective destination images and place attachment) are better predictors of destination loyalty than people-oriented concepts (cultural distance, social distance, and emotional solidarity). Together, they explain about half of the variance in destination loyalty, 42% in past loyalty and 60% in future loyalty.",
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "place attachment"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/085a7a55ff597eebf71b263642286ca915c56de0",
+      "is_trusted_journal": false,
+      "paper_id": "P-036"
+    },
+    {
+      "title": "The effect of a behavioral activation treatment for substance use on post‐treatment abstinence: a randomized controlled trial",
+      "authors": [
+        "Stacey B. Daughters",
+        "J. Magidson",
+        "D. Anand",
+        "C. J. Seitz-Brown",
+        "Yun Chen",
+        "Sydney Baker"
+      ],
+      "year": 2018,
+      "journal": "Addiction",
+      "doi": "10.1111/add.14049",
+      "citation_count": 144,
+      "abstract": null,
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "behavioral activation"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/9baab54b44b7e9e75e4ab10e1658f866d8914719",
+      "is_trusted_journal": false,
+      "paper_id": "P-037"
+    },
+    {
+      "title": "Major obstacles to doxorubicin therapy: Cardiotoxicity and drug resistance",
+      "authors": [
+        "Hamdan S Al-malky",
+        "Sameer E Al Harthi",
+        "A. Osman"
+      ],
+      "year": 2020,
+      "journal": "Journal of Oncology Pharmacy Practice",
+      "doi": "10.1177/1078155219877931",
+      "citation_count": 142,
+      "abstract": "Background Doxorubicin is one of the most commonly prescribed and time-tested anticancer drugs. Although being considered as a first line drug in different types of cancers, the two main obstacles to doxorubicin therapy are drug-induced cardiotoxicity and drug resistance. Method The study utilizes systemic reviews on publications of previous studies obtained from scholarly journal databases including PubMed, Medline, Ebsco Host, Google Scholar, and Cochrane. The study utilizes secondary information obtained from health organizations using filters and keywords to sustain information relevancy. The study utilizes information retrieved from studies captured in the peer-reviewed journals on “doxorubicin-induced cardiotoxicity” and “doxorubicin resistance.” Discussion and results The exact mechanisms of cardiotoxicity are not known; various hypotheses are studied. Doxorubicin can lead to free radical generation in various ways. The commonly proposed underlying mechanisms promoting doxorubicin resistance are the expression of multidrug resistance proteins as well as other causes. Conclusion In this review, we have described the major obstacles to doxorubicin therapy, doxorubicin-induced cardiotoxicity as well as the mechanisms of cancer drug resistance and in following the treatment failures.",
+      "publication_type": "Review",
+      "keywords_matched": [
+        "journaling therapy"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/a6dc2e92437645bc879e79461024398591161dff",
+      "is_trusted_journal": false,
+      "paper_id": "P-038"
+    },
+    {
+      "title": "Modelling habit formation and its determinants",
+      "authors": [
+        "B. Gardner",
+        "Phillippa Lally"
+      ],
+      "year": 2018,
+      "journal": "",
+      "doi": "10.1007/978-3-319-97529-0_12",
+      "citation_count": 139,
+      "abstract": null,
+      "publication_type": "Review",
+      "keywords_matched": [
+        "habit formation"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/e20730222be2a025cb44dc34780957fcf9338fb3",
+      "is_trusted_journal": false,
+      "paper_id": "P-039"
+    },
+    {
+      "title": "Measuring place attachment with the Abbreviated Place Attachment Scale (APAS)",
+      "authors": [
+        "B. B. Boley",
+        "M. Strzelecka",
+        "E. Yeager",
+        "M. A. Ribeiro",
+        "Kayode D. Aleshinloye",
+        "K. Woosnam",
+        "Benjamin Prangle Mimbs"
+      ],
+      "year": 2021,
+      "journal": "",
+      "doi": "10.1016/J.JENVP.2021.101577",
+      "citation_count": 138,
+      "abstract": null,
+      "publication_type": "Review",
+      "keywords_matched": [
+        "place attachment"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/5dc55d671b774667941169360932cbf6bc5ea846",
+      "is_trusted_journal": false,
+      "paper_id": "P-040"
+    },
+    {
+      "title": "The effect of place attachment on visitors’ revisit intentions: evidence from Batam",
+      "authors": [
+        "S. Isa",
+        "H. H. Ariyanto",
+        "S. Kiumarsi"
+      ],
+      "year": 2020,
+      "journal": "Tourism Geographies",
+      "doi": "10.1080/14616688.2019.1618902",
+      "citation_count": 137,
+      "abstract": "Abstract The tourism sector is considered a vital economic driver in several countries. Consequently, tourism authorities focus much attention on the factors that could give them a competitive advantage especially in attracting repeat visitations to certain tourist destinations. The current study explores the path, environment → place attachment → revisit intention using the Stimulus-Organism-Response (S-O-R) model. The study obtained 455 responses from visitors to Batam Island in Indonesia using the convenience sampling method. This led to the formulation of hypotheses using the structural equation modeling (SEM). Novel findings are revealed. Atmosphere environment has a high positive correlation with place dependence while low positive correlation with place identity, place dependence, and place social bonding. Furthermore, the cultural environment is unimportant and insignificant in predicting place attachment. Interestingly, place attachment dimensions positively support revisit intentions. Place social binding is the most crucial feature of place attachment in revisit intentions. Thus, the findings obtained from documenting the importance of social interactions in tourism destinations are invaluable to tourism authorities, tourist practitioners, and tourism management in locating and extending tourist centers by reflecting on the physical and service environmental facilities that trigger social bonding-revisit effects. The findings shape new thinking to increase tourists’ repeat visits. 摘要 在一些国家, 旅游业被认为是一个重要的经济驱动力。因此, 旅游当局非常重视能够使他们具有竞争优势的因素, 特别是在吸引某些旅游目的地的重游方面。本研究采用刺激-组织-反应(S-O-R)模型, 探索环境→依恋位置→重游意愿的影响路径。该研究采用便利抽样的方法, 从印尼巴丹岛的游客中获得了455份问卷, 并且使用结构方程模型(SEM)检验了假设。研究表明, 大气环境与地方依赖呈高度正相关, 而与地方认同、地方依赖、地方社会联系呈低度正相关。此外, 文化环境在预测地点依恋方面并不显著。有趣的是, 地方依恋维度正向支持重游意愿。地点社会联系是地点依恋影响重游意愿的最重要的特征。因此, 通过记录旅游目的地社会互动的重要性所得到的研究结果, 对于旅游当局、旅游从业者和旅游管理人员反思触发社会纽带-再访效应的物质和服务环境设施, 选址和扩增旅游中心是非常宝贵的。这些发现为增加游客的重游提供了新的思路。",
+      "publication_type": "article",
+      "keywords_matched": [
+        "place attachment"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/224773352a776e3d4ce2790f2e55ac7ff13e32a1",
+      "is_trusted_journal": false,
+      "paper_id": "P-041"
+    },
+    {
+      "title": "Looking beyond depression: a meta-analysis of the effect of behavioral activation on depression, anxiety, and activation",
+      "authors": [
+        "Aliza T. Stein",
+        "Emily Carl",
+        "P. Cuijpers",
+        "E. Karyotaki",
+        "J. A. Smits"
+      ],
+      "year": 2019,
+      "journal": "Psychological Medicine",
+      "doi": "10.1017/S0033291720000239",
+      "citation_count": 134,
+      "abstract": "Abstract Background Depression is a prevalent and impairing condition. Behavioral activation (BA) is a parsimonious, cost-effective, and easily disseminated psychological intervention for depression. The current meta-analysis expands on the existing literature supporting the efficacy of BA for depression by examining the effects of BA on additional relevant outcomes for patients with depression, namely the reduction in anxiety symptoms and increase in activation. Methods Randomized controlled trials of BA for depression compared to active and inactive control were identified via a systematic review. Effect sizes using Hedges's g were calculated for each outcome compared to both active and inactive control using random effects models. Subgroup analyses were used to examine the inclusion of a discussion of values as a moderator of depression symptom outcome in BA. Results Twenty-eight studies were included. Meta-analyses of symptom change between groups from baseline-to-post intervention indicated that BA outperformed inactive control conditions for improvements in depression (g = 0.83), anxiety (g = 0.37), and activation (g = 0.64). The difference between BA and active control conditions was not significant for improvements in depression (g = 0.15), anxiety (g = 0.03), and activation (g = 0.04). There was no evidence for a discussion of values augmenting BA efficacy. Study quality was generally low, and there was evidence of publication bias. Conclusions In addition to improving depression, BA shows efficacy for reducing symptoms of anxiety and increasing activation. BA may not offer better outcomes relative to other active interventions. There is room for improvement in the quality of research in this area.",
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "behavioral activation"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/737f4e8b270b57ff695b2f9b3d059e0ad02333e9",
+      "is_trusted_journal": false,
+      "paper_id": "P-042"
+    },
+    {
+      "title": "BEHAVIORAL ACTIVATION AND THERAPEUTIC EXPOSURE FOR POSTTRAUMATIC STRESS DISORDER: A NONINFERIORITY TRIAL OF TREATMENT DELIVERED IN PERSON VERSUS HOME‐BASED TELEHEALTH",
+      "authors": [
+        "Ron Acierno",
+        "D. Gros",
+        "K. Ruggiero",
+        "M. Hernandez-Tejada",
+        "R. Knapp",
+        "C. Lejuez",
+        "W. Muzzy",
+        "Christopher B Frueh",
+        "L. Egede",
+        "Peter W. Tuerk"
+      ],
+      "year": 2016,
+      "journal": "Depression and Anxiety",
+      "doi": "10.1002/da.22476",
+      "citation_count": 134,
+      "abstract": "Combat veterans returning to society with impairing mental health conditions such as PTSD and major depression (MD) report significant barriers to care related to aspects of traditional psychotherapy service delivery (e.g., stigma, travel time, and cost). Hence, alternate treatment delivery methods are needed. Home‐based telehealth (HBT) is one such option; however, this delivery mode has not been compared to in person, clinic‐based care for PTSD in adequately powered trials. The present study was designed to compare relative noninferiority of evidence‐based psychotherapies for PTSD and MD, specifically Behavioral Activation and Therapeutic Exposure (BA‐TE), when delivered via HBT versus in person, in clinic delivery.",
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "behavioral activation"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/7068e6aeed441ad857d1b8286d02490a3befabba",
+      "is_trusted_journal": false,
+      "paper_id": "P-043"
+    },
+    {
+      "title": "An effective self-supervised framework for learning expressive molecular global representations to drug discovery",
+      "authors": [
+        "Pengyong Li",
+        "Jun Wang",
+        "Yixuan Qiao",
+        "Hao Chen",
+        "Yihuan Yu",
+        "Xiaojun Yao",
+        "Peng Gao",
+        "Guowang Xie",
+        "Sen Song"
+      ],
+      "year": 2021,
+      "journal": "Briefings Bioinform.",
+      "doi": "10.1093/bib/bbab109",
+      "citation_count": 132,
+      "abstract": "How to produce expressive molecular representations is a fundamental challenge in artificial intelligence-driven drug discovery. Graph neural network (GNN) has emerged as a powerful technique for modeling molecular data. However, previous supervised approaches usually suffer from the scarcity of labeled data and poor generalization capability. Here, we propose a novel molecular pre-training graph-based deep learning framework, named MPG, that learns molecular representations from large-scale unlabeled molecules. In MPG, we proposed a powerful GNN for modelling molecular graph named MolGNet, and designed an effective self-supervised strategy for pre-training the model at both the node and graph-level. After pre-training on 11 million unlabeled molecules, we revealed that MolGNet can capture valuable chemical insights to produce interpretable representation. The pre-trained MolGNet can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of drug discovery tasks, including molecular properties prediction, drug-drug interaction and drug-target interaction, on 14 benchmark datasets. The pre-trained MolGNet in MPG has the potential to become an advanced molecular encoder in the drug discovery pipeline.",
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "self-discovery"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/e87c4248e031a846e6a4486b818a37a1b2233b36",
+      "is_trusted_journal": false,
+      "paper_id": "P-044"
+    },
+    {
+      "title": "Model-Informed Precision Dosing: Background, Requirements, Validation, Implementation, and Forward Trajectory of Individualizing Drug Therapy.",
+      "authors": [
+        "A. Darwich",
+        "T. Polasek",
+        "J. Aronson",
+        "K. Ogungbenro",
+        "Daniel F. B. Wright",
+        "Brahim Achour",
+        "J. Reny",
+        "Y. Daali",
+        "B. Eiermann",
+        "J. Cook",
+        "L. Lesko",
+        "A. McLachlan",
+        "A. Rostami-Hodjegan"
+      ],
+      "year": 2020,
+      "journal": "Annual Review of Pharmacology and Toxicology",
+      "doi": "10.1146/annurev-pharmtox-033020-113257",
+      "citation_count": 132,
+      "abstract": "Model-informed precision dosing (MIPD) has become synonymous with modern approaches for individualizing drug therapy, in which the characteristics of each patient are considered as opposed to applying a one-size-fits-all alternative. This review provides a brief account of the current knowledge, practices, and opinions on MIPD while defining an achievable vision for MIPD in clinical care based on available evidence. We begin with a historical perspective on variability in dose requirements and then discuss technical aspects of MIPD, including the need for clinical decision support tools, practical validation, and implementation of MIPD in health care. We also discuss novel ways to characterize patient variability beyond the common perceptions of genetic control. Finally, we address current debates on MIPD from the perspectives of the new drug development, health-care economics, and drug regulations. Expected final online publication date for the Annual Review of Pharmacology and Toxicology, Volume 61 is January 7, 2021. Please see http://www.annualreviews.org/page/journal/pubdates for revised estimates.",
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "journaling therapy"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/39864e6ec5b7a0196c64b92ec2d95b9d5415a626",
+      "is_trusted_journal": false,
+      "paper_id": "P-045"
+    },
+    {
+      "title": "Thioredoxin Reductase Inhibition for Cancer Therapy.",
+      "authors": [
+        "R. Gencheva",
+        "Elias S. J. Arnér"
+      ],
+      "year": 2021,
+      "journal": "Annual Review of Pharmacology and Toxicology",
+      "doi": "10.1146/annurev-pharmtox-052220-102509",
+      "citation_count": 128,
+      "abstract": "The cytosolic selenoprotein thioredoxin reductase 1 (TrxR1, TXNRD1), and to some extent mitochondrial TrxR2 (TXNRD2), can be inhibited by a wide range of electrophilic compounds. Many such compounds also yield cytotoxicity toward cancer cells in culture or in mouse models, and most compounds are likely to irreversibly modify the easily accessible selenocysteine residue in TrxR1, thereby inhibiting its normal activity to reduce cytosolic thioredoxin (Trx1, TXN) and other substrates of the enzyme. This leads to an oxidative challenge. In some cases, the inhibited forms of TrxR1 are not catalytically inert and are instead converted to prooxidant NADPH oxidases, named SecTRAPs, thus further aggravating the oxidative stress, particularly in cells expressing higher levels of the enzyme. In this review, the possible molecular and cellular consequences of these effects are discussed in relation to cancer therapy, with a focus on outstanding questions that should be addressed if targeted TrxR1 inhibition is to be further developed for therapeutic use. Expected final online publication date for the Annual Review of Pharmacology and Toxicology, Volume 62 is January 2022. Please see http://www.annualreviews.org/page/journal/pubdates for revised estimates.",
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "journaling therapy"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/393230fb84e621fccc13502ebaa5573078d1da74",
+      "is_trusted_journal": false,
+      "paper_id": "P-046"
+    },
+    {
+      "title": "Vital pulp therapy of mature permanent teeth with irreversible pulpitis from the perspective of pulp biology.",
+      "authors": [
+        "Louis M. Lin",
+        "D. Ricucci",
+        "T. M. Saoud",
+        "A. Sigurdsson",
+        "B. Kahler"
+      ],
+      "year": 2019,
+      "journal": "Australian Endodontic Journal",
+      "doi": "10.1111/aej.12392",
+      "citation_count": 127,
+      "abstract": "The American Association of Endodontists (AAE) Consensus Conference Recommended Diagnostic Terminology states that mature permanent teeth clinically diagnosed with irreversible pulpitis are treated with pulpectomy and root canal filling because inflamed vital pulp is not capable of healing. Histological studies have demonstrated that clinically diagnosed irreversible pulpitis does not involve the entire pulp. A recent International Endodontic Journal Editorial suggested clinical diagnosis of pulp disease should be reassessed because of the poor correlation between clinical symptoms and pulp sensibility testing and the actual histological status of the pulp. This review identified studies in a PubMed search that provide evidence for vital pulp therapy (VPT) of mature permanent teeth with irreversible pulpitis is predictable if correctly diagnosed and properly treated. A narrative review was undertaken to outline the correlation between the clinical symptoms/signs and pulp sensibility testing and the histological findings of the pulp. Treatment procedures for permanent teeth are outlined.",
+      "publication_type": "Review",
+      "keywords_matched": [
+        "journaling therapy"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/fa0afbb930b45ecd60bb5a599f8f4332bc7d33d9",
+      "is_trusted_journal": false,
+      "paper_id": "P-047"
+    },
+    {
+      "title": "AlphaFlow: autonomous discovery and optimization of multi-step chemistry using a self-driven fluidic lab guided by reinforcement learning",
+      "authors": [
+        "Amanda A. Volk",
+        "Robert W. Epps",
+        "Daniel T Yonemoto",
+        "Benjamin S. Masters",
+        "F. Castellano",
+        "Kristofer G. Reyes",
+        "M. Abolhasani"
+      ],
+      "year": 2023,
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-023-37139-y",
+      "citation_count": 124,
+      "abstract": "Autonomous exploration of materials design space is hindered by its high dimensionality and the scarcity of data. In this work, we present AlphaFlow, a self-driven lab guided by reinforcement learning that enables accelerated discovery and optimization of multi-step chemistries. Closed-loop, autonomous experimentation enables accelerated and material-efficient exploration of large reaction spaces without the need for user intervention. However, autonomous exploration of advanced materials with complex, multi-step processes and data sparse environments remains a challenge. In this work, we present AlphaFlow, a self-driven fluidic lab capable of autonomous discovery of complex multi-step chemistries. AlphaFlow uses reinforcement learning integrated with a modular microdroplet reactor capable of performing reaction steps with variable sequence, phase separation, washing, and continuous in-situ spectral monitoring. To demonstrate the power of reinforcement learning toward high dimensionality multi-step chemistries, we use AlphaFlow to discover and optimize synthetic routes for shell-growth of core-shell semiconductor nanoparticles, inspired by colloidal atomic layer deposition (cALD). Without prior knowledge of conventional cALD parameters, AlphaFlow successfully identified and optimized a novel multi-step reaction route, with up to 40 parameters, that outperformed conventional sequences. Through this work, we demonstrate the capabilities of closed-loop, reinforcement learning-guided systems in exploring and solving challenges in multi-step nanoparticle syntheses, while relying solely on in-house generated data from a miniaturized microfluidic platform. Further application of AlphaFlow in multi-step chemistries beyond cALD can lead to accelerated fundamental knowledge generation as well as synthetic route discoveries and optimization.",
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "self-discovery"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/326d196706f5af85e2bde24b2ca50e48607ba9d7",
+      "is_trusted_journal": false,
+      "paper_id": "P-048"
+    },
+    {
+      "title": "The use of platelet‐rich fibrin to enhance the outcomes of implant therapy: A systematic review",
+      "authors": [
+        "F. Strauss",
+        "A. Stähli",
+        "R. Gruber"
+      ],
+      "year": 2018,
+      "journal": "Clinical Oral Implants Research",
+      "doi": "10.1111/clr.13275",
+      "citation_count": 118,
+      "abstract": "Abstract Objective To assess the impact of platelet‐rich fibrin (PRF) on implant dentistry. The primary focused question was as follows: What are the clinical, histological, and radiographic outcomes of PRF administration for bone regeneration and implant therapy? Method A systematic literature search comprised three databases: MEDLINE, EMBASE, and Cochrane followed by a hand search of relevant scientific journals. Human studies using PRF for bone regeneration and implant therapy were considered and articles published up to December 31, 2017 were included. Eligible studies were selected based on the inclusion criteria. Randomized controlled trials (RCT) and controlled clinical trials (CCT) were included. Results In total, 5,963 titles were identified with the search terms and by hand search. A total of 12 randomized controlled trials (RCT) met the inclusion criteria and were chosen for data extraction. Included studies focused on alveolar ridge preservation after tooth extraction, osseointegration process, soft tissue management, bone augmentation, bone regeneration after sinus floor elevation and surgical peri‐implantitis treatment. Overall, the risk of bias was moderate or unclear. Nine studies showed superior outcomes for PRF for any of the evaluated variables, such as ridge dimension, bone regeneration, osseointegration process, soft tissue healing. Three studies failed to show any beneficial effects of PRF. No meta‐analysis could be performed due to the heterogeneity of study designs. Conclusions There is moderate evidence supporting the clinical benefit of PRF on ridge preservation and in the early phase of osseointegration. It remains unclear whether PRF can reduce pain and improve soft tissue healing. More research support is necessary to comment on the role of PRF to improve other implant therapy outcomes.",
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "journaling therapy"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/1dfca799105cc4ffd85e8c12163f7ef501f1cd52",
+      "is_trusted_journal": false,
+      "paper_id": "P-049"
+    },
+    {
+      "title": "Vagus nerve stimulation induces widespread cortical and behavioral activation",
+      "authors": [
+        "Lindsay N Collins",
+        "L. Boddington",
+        "Paul J. Steffan",
+        "D. McCormick"
+      ],
+      "year": 2021,
+      "journal": "Current Biology",
+      "doi": "10.1016/j.cub.2021.02.049",
+      "citation_count": 116,
+      "abstract": "Vagus nerve stimulation (VNS) is used for management of a variety of neurological conditions, although the therapeutic mechanisms are not fully understood. Accumulating evidence suggests that VNS may modulate cortical state and plasticity through activation of broadly projecting neuromodulatory systems. Using a mouse model, we compared arousal-linked behaviors with dorsal cortical activity obtained with widefield and two-photon GCaMP6s calcium imaging and electrophysiological recordings. We observed robust and reliable cortical and behavioral dose-dependent activation in waking mice to VNS, including pupil dilation and, frequently, whisker movements and locomotion. Widefield calcium imaging and multiunit recording during VNS revealed that this observed increase in arousal state is coupled with a rapid and widespread increase in excitatory activity, including, but not limited to, activation of somatosensory, visual, motor, retrosplenial, and auditory cortical regions. Two-photon GCaMP6s calcium imaging of cholinergic and noradrenergic cortical axons revealed that VNS strongly activates these neuromodulatory systems. Importantly, VNS-evoked activation of neuromodulatory axons and excitatory neurons in the cortex persisted in mice under light anesthesia, in the absence of overt movement. Arousal state changes were abolished by vagus nerve transection, confirming that observed VNS effects were specific to nerve stimulation and triggered widespread activity above that which can be explained by motor activity. Taken together, our results support a model of VNS in which activation of subcortical structures leads to widespread activation of cortex and an increase in arousal state, at least partially due to the activation of cholinergic and noradrenergic modulatory pathways.",
+      "publication_type": "JournalArticle",
+      "keywords_matched": [
+        "behavioral activation"
+      ],
+      "source_api": "semantic_scholar",
+      "url": "https://www.semanticscholar.org/paper/a445db254d97f4d06c9a78c9751c5d380c1d7d5b",
+      "is_trusted_journal": false,
+      "paper_id": "P-050"
+    }
+  ]
+}

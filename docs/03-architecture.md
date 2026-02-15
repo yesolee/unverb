@@ -99,15 +99,22 @@
 - "그건 별거 아니야" 등 감정 축소
 - 특정 치료법 권유
 
-## 기술 스택 후보
+## 기술 스택 (확정)
+
+### 앱 개발
 
 | 영역 | 기술 | 비고 |
 |------|------|------|
-| Frontend | React Native | 크로스 플랫폼 |
-| Backend | Python FastAPI | API 서버 |
-| Database | PostgreSQL + Pinecone | 관계형 + 벡터 |
-| AI/LLM | Claude API | 전달층 |
+| Frontend | React Native (Expo) | iOS + Android 동시 지원 |
+| Backend/DB/인증/스토리지 | Supabase | PostgreSQL 포함, 서버 직접 안 만들어도 됨 |
+| AI/LLM | Claude API | 담임선생님 피드백, 주간 분석 |
+| Push 알림 | Firebase Cloud Messaging | 알람 시스템 |
 | 논문 검색 | Semantic Scholar API | 무료 |
 | 논문 보조 | OpenAlex API | 오픈소스 |
-| Push 알림 | Firebase Cloud Messaging | 알람 시스템 |
 | 분석 | Mixpanel / Amplitude | 사용자 행동 |
+
+### 개발 자동화 (서브에이전트)
+
+| 영역 | 기술 | 비고 |
+|------|------|------|
+| 에이전트 프레임워크 | Claude Agent SDK (Python) | 콘텐츠 빌더, 안전 검증 등 |

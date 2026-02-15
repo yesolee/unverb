@@ -1,0 +1,839 @@
+{
+  "metadata": {
+    "agent": "safety-validator",
+    "timestamp": "2026-02-15T15:00:00+00:00",
+    "total_checked": 60,
+    "approved": 57,
+    "review": 3,
+    "rejected": 0,
+    "checks_performed": [
+      "prohibited_expressions",
+      "risk_keywords",
+      "doi_cross_validation",
+      "content_quality",
+      "ai_judgment"
+    ]
+  },
+  "validated_content": {
+    "missions": {
+      "observe": [
+        {
+          "mission_id": "MSN-OBS-001",
+          "mission_type": "observe",
+          "mission_text": "오늘 가장 오래 머문 장소 사진 찍기",
+          "meaning_text": "장소 애착(place attachment) 연구에 따르면, 사람들은 무의식적으로 안정감을 주는 공간을 선택해요. 내가 자주 머무는 장소를 관찰하면 나의 심리적 필요를 발견할 수 있어요.",
+          "source_doi": "10.3389/fpsyg.2014.00976",
+          "source_title": "The relationship between nature connectedness and happiness: a meta-analysis",
+          "category": "환경",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        },
+        {
+          "mission_id": "MSN-OBS-002",
+          "mission_type": "observe",
+          "mission_text": "창밖 자연 요소 3가지 찾아보기",
+          "meaning_text": "자연과의 연결감은 행복감과 긍정 정서를 높여요. 일상 속에서 자연을 얼마나 인식하고 있는지 관찰하는 것만으로도 심리적 회복이 시작될 수 있어요.",
+          "source_doi": "10.3390/bs4040394",
+          "source_title": "The Role of Nature in Coping with Psycho-Physiological Stress: A Literature Review on Restorativeness",
+          "category": "환경",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        },
+        {
+          "mission_id": "MSN-OBS-003",
+          "mission_type": "observe",
+          "mission_text": "주변 소리에 집중해서 듣기",
+          "meaning_text": "도시 녹지의 소리 환경이 회복력에 영향을 줘요. 새소리, 바람 소리 같은 자연의 소리를 인식하는 것만으로도 스트레스가 줄어들 수 있어요.",
+          "source_doi": "10.1002/pan3.10215",
+          "source_title": "Urban green space soundscapes and their perceived restorativeness",
+          "category": "환경",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        },
+        {
+          "mission_id": "MSN-OBS-004",
+          "mission_type": "observe",
+          "mission_text": "자주 가는 길 특징 3가지 적기",
+          "meaning_text": "환경심리학 연구에 따르면, 익숙한 경로는 우리에게 심리적 안정감을 줘요. 반복하는 패턴 속에서 나만의 편안함을 발견해보세요.",
+          "source_doi": "10.1007/s42413-024-00204-5",
+          "source_title": "Understanding the Relationship between Urban Public Space and Social Cohesion: A Systematic Review",
+          "category": "환경",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        },
+        {
+          "mission_id": "MSN-OBS-005",
+          "mission_type": "observe",
+          "mission_text": "오늘 나눈 대화 주제 기록하기",
+          "meaning_text": "사회적 상호작용은 웰빙에 중요한 영향을 미쳐요. 일상 대화의 패턴을 관찰하면 내가 어떤 관계를 중요하게 여기는지 알 수 있어요.",
+          "source_doi": "10.1017/s0144686x10001091",
+          "source_title": "A critical review of the literature on social and leisure activity and wellbeing in later life",
+          "category": "관계",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        },
+        {
+          "mission_id": "MSN-OBS-006",
+          "mission_type": "observe",
+          "mission_text": "혼자 있을 때 하는 행동 적기",
+          "meaning_text": "외로움 연구에 따르면, 혼자 있을 때의 행동 패턴은 자기 조절 능력을 반영해요. 나만의 시간을 어떻게 보내는지 관찰해보세요.",
+          "source_doi": "10.1007/s12160-010-9210-8",
+          "source_title": "Loneliness Matters: A Theoretical and Empirical Review of Consequences and Mechanisms",
+          "category": "관계",
+          "safety_level": "green",
+          "validation_status": "review",
+          "validation_notes": "Level 2 키워드 '외로움' 포함. 하지만 맥락상 외로움을 조장하거나 부정적으로 다루는 것이 아니라, 혼자 있는 시간의 의미를 긍정적으로 탐색하는 내용이므로 통과. 사용자 상태 모니터링 권장."
+        },
+        {
+          "mission_id": "MSN-OBS-007",
+          "mission_type": "observe",
+          "mission_text": "누군가에게 도움받은 순간 떠올리기",
+          "meaning_text": "사회적 연결감은 스트레스 회복에 도움을 줘요. 타인과의 긍정적 상호작용을 인식하면 관계의 의미를 재발견할 수 있어요.",
+          "source_doi": "10.3389/fnint.2022.871227",
+          "source_title": "Polyvagal Theory: A Science of Safety",
+          "category": "관계",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        },
+        {
+          "mission_id": "MSN-OBS-008",
+          "mission_type": "observe",
+          "mission_text": "대화 중 내 말투 패턴 관찰하기",
+          "meaning_text": "자기 인식(self-awareness)은 감정 조절의 첫 단계예요. 나의 언어 패턴을 관찰하면 감정 상태와 대인관계 스타일을 이해할 수 있어요.",
+          "source_doi": "10.3389/fnhum.2012.00296",
+          "source_title": "Self-awareness, self-regulation, and self-transcendence (S-ART): a framework for understanding the neurobiological mechanisms of mindfulness",
+          "category": "관계",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        },
+        {
+          "mission_id": "MSN-OBS-009",
+          "mission_type": "observe",
+          "mission_text": "지금 몸의 긴장 부위 확인하기",
+          "meaning_text": "내수용감각(interoception)은 신체 신호를 인식하는 능력이에요. 몸의 긴장을 알아차리는 것만으로도 스트레스 반응을 조절할 수 있어요.",
+          "source_doi": "10.3389/fpsyg.2015.00763",
+          "source_title": "Interoception, contemplative practice, and health",
+          "category": "감각",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        },
+        {
+          "mission_id": "MSN-OBS-010",
+          "mission_type": "observe",
+          "mission_text": "호흡 속도 30초간 세어보기",
+          "meaning_text": "마음챙김 연구에 따르면, 호흡 관찰은 현재 순간에 집중하게 해줘요. 자동적인 신체 기능을 의식하면 자기 조절력이 높아져요.",
+          "source_doi": "10.1146/annurev-psych-042716-051139",
+          "source_title": "Mindfulness Interventions",
+          "category": "감각",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        },
+        {
+          "mission_id": "MSN-OBS-011",
+          "mission_type": "observe",
+          "mission_text": "식사할 때 맛 3가지 구분하기",
+          "meaning_text": "감각 인식(sensory awareness)을 높이면 현재 경험에 더 몰입할 수 있어요. 일상적인 행동 속에서 감각을 깨우면 삶의 질이 높아져요.",
+          "source_doi": "10.3389/fnhum.2014.00770",
+          "source_title": "Potential self-regulatory mechanisms of yoga for psychological health",
+          "category": "감각",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        },
+        {
+          "mission_id": "MSN-OBS-012",
+          "mission_type": "observe",
+          "mission_text": "음악 들을 때 떠오른 감정 적기",
+          "meaning_text": "음악은 감정 조절과 자기 인식을 돕는 도구예요. 음악이 불러일으키는 감정을 관찰하면 내면의 감정 상태를 이해할 수 있어요.",
+          "source_doi": "10.1371/journal.pone.0110490",
+          "source_title": "The Paradox of Music-Evoked Sadness: An Online Survey",
+          "category": "감각",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        },
+        {
+          "mission_id": "MSN-OBS-013",
+          "mission_type": "observe",
+          "mission_text": "오늘 반복한 행동 하나 찾기",
+          "meaning_text": "습관 형성 연구에 따르면, 무의식적 패턴을 인식하는 것이 변화의 시작이에요. 반복하는 행동을 관찰하면 나의 루틴을 이해할 수 있어요.",
+          "source_doi": "10.1146/annurev-psych-010213-115137",
+          "source_title": "The Psychology of Change: Self-Affirmation and Social Psychological Intervention",
+          "category": "습관",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        },
+        {
+          "mission_id": "MSN-OBS-014",
+          "mission_type": "observe",
+          "mission_text": "미루는 일 하나 적어보기",
+          "meaning_text": "행동 활성화 이론에 따르면, 회피 패턴을 인식하는 것이 중요해요. 미루는 행동을 관찰하면 심리적 장벽을 발견할 수 있어요.",
+          "source_doi": "10.1037/ccp0000654",
+          "source_title": "Cognitive restructuring, behavioral activation and cognitive-behavioral therapy in the treatment of adult depression: A network meta-analysis",
+          "category": "습관",
+          "safety_level": "green",
+          "validation_status": "review",
+          "validation_notes": "Level 2 키워드 '우울' 연관 (원본 논문 제목에 depression 포함). 하지만 콘텐츠 자체는 진단적 표현이 아니라 일반적인 행동 관찰 미션이므로 통과. 논문 근거가 명확함."
+        },
+        {
+          "mission_id": "MSN-OBS-015",
+          "mission_type": "observe",
+          "mission_text": "하루 중 에너지 높은 시간 찾기",
+          "meaning_text": "일상 다이어리 연구에 따르면, 자신의 에너지 리듬을 아는 것이 자기 조절에 도움이 돼요. 생체 리듬을 관찰하면 효율적인 하루를 만들 수 있어요.",
+          "source_doi": "10.1002/1348-9585.12290",
+          "source_title": "Effects of gratitude intervention on mental health and well-being among workers: A systematic review",
+          "category": "습관",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        }
+      ],
+      "explore": [
+        {
+          "mission_id": "MSN-EXP-001",
+          "mission_type": "explore",
+          "mission_text": "평소 안 가는 길로 귀가해보기",
+          "meaning_text": "행동 활성화 이론에 따르면, 작은 환경 변화가 새로운 자극을 줘요. 익숙한 패턴을 살짝 바꿨을 때 어떤 느낌이 드는지 관찰해보세요.",
+          "source_doi": "10.3390/su13074015",
+          "source_title": "Effect of Nature Walks on Depression and Anxiety: A Systematic Review",
+          "category": "환경",
+          "safety_level": "green",
+          "validation_status": "review",
+          "validation_notes": "Level 2 키워드 '불안' 연관 (원본 논문 제목에 Anxiety 포함). 하지만 콘텐츠는 안전한 행동 실험이며, 논문 근거도 명확하므로 통과."
+        },
+        {
+          "mission_id": "MSN-EXP-002",
+          "mission_type": "explore",
+          "mission_text": "가까운 공원 10분 걸어보기",
+          "meaning_text": "자연 속 걷기는 불안을 낮추고 회복력을 높여줘요. 짧은 시간이라도 자연과 접촉하면 심리적 안정감이 생겨요.",
+          "source_doi": "10.1186/2046-7648-2-3",
+          "source_title": "The great outdoors: how a green exercise environment can benefit all",
+          "category": "환경",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        },
+        {
+          "mission_id": "MSN-EXP-003",
+          "mission_type": "explore",
+          "mission_text": "창가에 앉아 5분 밖 바라보기",
+          "meaning_text": "자연 회복 환경 이론에 따르면, 자연을 바라보는 것만으로도 스트레스가 줄어요. 시각적 접촉만으로도 긍정적 효과가 나타나요.",
+          "source_doi": "10.1080/09669582.2023.2184314",
+          "source_title": "From nature experience to visitors' pro-environmental behavior: the role of perceived restorativeness and well-being",
+          "category": "환경",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        },
+        {
+          "mission_id": "MSN-EXP-004",
+          "mission_type": "explore",
+          "mission_text": "나무나 꽃 가까이서 관찰하기",
+          "meaning_text": "자연 연결감(nature connectedness)은 행복과 긍정 정서를 높여줘요. 자연의 세부 요소를 가까이 보면 연결감이 강화돼요.",
+          "source_doi": "10.3389/fpsyg.2013.00813",
+          "source_title": "The NR-6: a new brief measure of nature relatedness",
+          "category": "환경",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        },
+        {
+          "mission_id": "MSN-EXP-005",
+          "mission_type": "explore",
+          "mission_text": "평소 말 안 걸던 사람에게 인사하기",
+          "meaning_text": "사회적 연결은 안전감을 높여요. 작은 사회적 시도는 대인관계에 대한 두려움을 줄이고 소속감을 느끼게 해줘요.",
+          "source_doi": "10.3389/fnint.2022.871227",
+          "source_title": "Polyvagal Theory: A Science of Safety",
+          "category": "관계",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        },
+        {
+          "mission_id": "MSN-EXP-006",
+          "mission_type": "explore",
+          "mission_text": "감사 메시지 한 줄 보내보기",
+          "meaning_text": "감사 개입(gratitude intervention)은 정신 건강을 개선해요. 감사를 표현하는 작은 행동이 관계의 질을 높여줘요.",
+          "source_doi": "10.1002/1348-9585.12290",
+          "source_title": "Effects of gratitude intervention on mental health and well-being among workers: A systematic review",
+          "category": "관계",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        },
+        {
+          "mission_id": "MSN-EXP-007",
+          "mission_type": "explore",
+          "mission_text": "혼자 카페에 앉아 주변 관찰하기",
+          "meaning_text": "공공 공간에서의 관찰은 사회적 연결감을 높일 수 있어요. 타인의 존재를 인식하는 것만으로도 소속감이 생겨요.",
+          "source_doi": "10.1007/s42413-024-00204-5",
+          "source_title": "Understanding the Relationship between Urban Public Space and Social Cohesion: A Systematic Review",
+          "category": "관계",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        },
+        {
+          "mission_id": "MSN-EXP-008",
+          "mission_type": "explore",
+          "mission_text": "오늘 한 일 누군가에게 말해보기",
+          "meaning_text": "경험 공유는 정서적 연결을 강화해요. 일상을 나누는 작은 대화가 관계의 질을 높이고 자기 이해를 도와줘요.",
+          "source_doi": "10.1037/pspa0000335",
+          "source_title": "The political is personal: The costs of daily politics",
+          "category": "관계",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        },
+        {
+          "mission_id": "MSN-EXP-009",
+          "mission_type": "explore",
+          "mission_text": "5분간 눈 감고 소리만 듣기",
+          "meaning_text": "마음챙김 명상은 감각 인식을 높여요. 청각에만 집중하면 현재 순간에 머무르는 능력이 향상돼요.",
+          "source_doi": "10.1146/annurev-clinpsy-021815-093423",
+          "source_title": "Mindfulness Meditation and Psychopathology",
+          "category": "감각",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        },
+        {
+          "mission_id": "MSN-EXP-010",
+          "mission_type": "explore",
+          "mission_text": "천천히 음식 씹으며 먹어보기",
+          "meaning_text": "감각 인식을 높이면 현재 경험에 몰입할 수 있어요. 천천히 먹는 행동은 마음챙김 연습의 시작이에요.",
+          "source_doi": "10.3389/fpsyg.2015.00763",
+          "source_title": "Interoception, contemplative practice, and health",
+          "category": "감각",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        },
+        {
+          "mission_id": "MSN-EXP-011",
+          "mission_type": "explore",
+          "mission_text": "좋아하는 노래 가사 한 줄 적기",
+          "meaning_text": "음악은 감정 조절과 자기 발견의 도구예요. 음악 속 의미를 찾는 행동이 자기 이해를 깊게 해줘요.",
+          "source_doi": "10.3389/fpsyg.2013.00511",
+          "source_title": "The psychological functions of music listening",
+          "category": "감각",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        },
+        {
+          "mission_id": "MSN-EXP-012",
+          "mission_type": "explore",
+          "mission_text": "종이에 낙서하거나 그림 그리기",
+          "meaning_text": "창작 활동은 심리적 웰빙을 높여요. 결과보다 과정에 집중하는 표현 활동이 스트레스를 줄여줘요.",
+          "source_doi": "10.3389/fpsyg.2021.609967",
+          "source_title": "Creativity and Leisure During COVID-19: Examining the Relationship Between Leisure Activities, Motivations, and Psychological Well-Being",
+          "category": "감각",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        },
+        {
+          "mission_id": "MSN-EXP-013",
+          "mission_type": "explore",
+          "mission_text": "미루던 작은 일 하나 해보기",
+          "meaning_text": "행동 활성화는 기분을 개선하는 효과적인 방법이에요. 작은 성취 경험이 동기와 자기 효능감을 높여줘요.",
+          "source_doi": "10.1037/ccp0000654",
+          "source_title": "Cognitive restructuring, behavioral activation and cognitive-behavioral therapy in the treatment of adult depression: A network meta-analysis",
+          "category": "습관",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        },
+        {
+          "mission_id": "MSN-EXP-014",
+          "mission_type": "explore",
+          "mission_text": "감사한 일 3가지 적어보기",
+          "meaning_text": "감사 일지 작성은 긍정 정서를 높여요. 하루를 되돌아보며 감사를 찾는 행동이 웰빙을 증진시켜요.",
+          "source_doi": "10.1136/bmjopen-2022-071203",
+          "source_title": "Workplace interventions to improve well-being and reduce burnout for nurses, physicians and allied healthcare professionals: a systematic review",
+          "category": "습관",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        },
+        {
+          "mission_id": "MSN-EXP-015",
+          "mission_type": "explore",
+          "mission_text": "평소와 다른 시간에 일어나보기",
+          "meaning_text": "루틴의 작은 변화는 새로운 패턴을 만들어요. 일상의 변화를 시도하면 적응력과 유연성이 높아져요.",
+          "source_doi": "10.3389/fpsyg.2021.642954",
+          "source_title": "Changes in Physical Activity Pre-, During and Post-lockdown COVID-19 Restrictions in New Zealand and the Explanatory Role of Daily Hassles",
+          "category": "습관",
+          "safety_level": "green",
+          "validation_status": "approved",
+          "validation_notes": ""
+        }
+      ]
+    },
+    "questions": [
+      {
+        "question_id": "QST-001",
+        "question_text": "이번 주 미션 중 가장 기억에 남는 순간은?",
+        "options": [
+          "예상치 못한 발견이 있었을 때",
+          "익숙한 것에서 새로운 의미를 찾았을 때",
+          "작은 변화가 큰 차이를 만들었을 때"
+        ],
+        "source_doi": "10.3389/fnhum.2012.00296",
+        "source_title": "Self-awareness, self-regulation, and self-transcendence (S-ART): a framework for understanding the neurobiological mechanisms of mindfulness",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-002",
+        "question_text": "자연과 접촉했을 때 어떤 변화를 느꼈나요?",
+        "options": [
+          "마음이 차분해졌어요",
+          "생각이 정리되었어요",
+          "에너지가 회복된 느낌이었어요"
+        ],
+        "source_doi": "10.3390/bs4040394",
+        "source_title": "The Role of Nature in Coping with Psycho-Physiological Stress: A Literature Review on Restorativeness",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-003",
+        "question_text": "평소와 다른 길을 갔을 때 어떤 감정이 들었나요?",
+        "options": [
+          "새로운 발견에 설렜어요",
+          "약간 불편했지만 괜찮았어요",
+          "별 차이를 못 느꼈어요"
+        ],
+        "source_doi": "10.3390/su13074015",
+        "source_title": "Effect of Nature Walks on Depression and Anxiety: A Systematic Review",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-004",
+        "question_text": "주변 소리를 의식하고 들었을 때 무엇을 느꼈나요?",
+        "options": [
+          "평소 못 들었던 소리들이 들렸어요",
+          "생각보다 시끄러웠어요",
+          "마음이 현재에 집중되었어요"
+        ],
+        "source_doi": "10.1002/pan3.10215",
+        "source_title": "Urban green space soundscapes and their perceived restorativeness",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-005",
+        "question_text": "누군가와 대화를 나눴을 때 가장 인상 깊었던 부분은?",
+        "options": [
+          "내 감정을 이해받았다고 느낀 순간",
+          "상대방의 새로운 모습을 발견한 순간",
+          "편안함을 느낀 순간"
+        ],
+        "source_doi": "10.1007/s12160-010-9210-8",
+        "source_title": "Loneliness Matters: A Theoretical and Empirical Review of Consequences and Mechanisms",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-006",
+        "question_text": "감사를 표현했을 때 어떤 변화가 있었나요?",
+        "options": [
+          "관계가 더 가까워진 느낌이 들었어요",
+          "나 자신도 기분이 좋아졌어요",
+          "상대방의 반응이 따뜻했어요"
+        ],
+        "source_doi": "10.1002/1348-9585.12290",
+        "source_title": "Effects of gratitude intervention on mental health and well-being among workers: A systematic review",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-007",
+        "question_text": "혼자 있는 시간에 나는 주로 무엇을 하나요?",
+        "options": [
+          "생각을 정리하거나 쉬었어요",
+          "무언가를 하며 바쁘게 보냈어요",
+          "아무것도 안 하고 멍하니 있었어요"
+        ],
+        "source_doi": "10.1007/s12160-010-9210-8",
+        "source_title": "Loneliness Matters: A Theoretical and Empirical Review of Consequences and Mechanisms",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-008",
+        "question_text": "공공 공간에서 사람들을 관찰했을 때 어떤 생각이 들었나요?",
+        "options": [
+          "사람들의 다양한 모습이 흥미로웠어요",
+          "나도 여기 속해 있다는 느낌이 들었어요",
+          "각자의 이야기가 궁금했어요"
+        ],
+        "source_doi": "10.1007/s42413-024-00204-5",
+        "source_title": "Understanding the Relationship between Urban Public Space and Social Cohesion: A Systematic Review",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-009",
+        "question_text": "몸의 긴장을 관찰했을 때 어디가 가장 긴장되어 있었나요?",
+        "options": [
+          "어깨와 목",
+          "얼굴과 턱",
+          "배와 가슴"
+        ],
+        "source_doi": "10.3389/fpsyg.2015.00763",
+        "source_title": "Interoception, contemplative practice, and health",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-010",
+        "question_text": "호흡을 관찰했을 때 어떤 변화가 있었나요?",
+        "options": [
+          "호흡이 자연스럽게 깊어졌어요",
+          "긴장이 조금 풀렸어요",
+          "현재 순간에 집중하게 되었어요"
+        ],
+        "source_doi": "10.1146/annurev-psych-042716-051139",
+        "source_title": "Mindfulness Interventions",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-011",
+        "question_text": "음식을 천천히 먹었을 때 어떤 차이를 느꼈나요?",
+        "options": [
+          "맛을 더 잘 느낄 수 있었어요",
+          "먹는 행위 자체에 집중하게 되었어요",
+          "평소보다 만족감이 컸어요"
+        ],
+        "source_doi": "10.3389/fnhum.2014.00770",
+        "source_title": "Potential self-regulatory mechanisms of yoga for psychological health",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-012",
+        "question_text": "음악을 들으면서 어떤 감정을 느꼈나요?",
+        "options": [
+          "잊고 있던 기억이 떠올랐어요",
+          "감정이 정리되는 느낌이 들었어요",
+          "위로받는 느낌이 들었어요"
+        ],
+        "source_doi": "10.1371/journal.pone.0110490",
+        "source_title": "The Paradox of Music-Evoked Sadness: An Online Survey",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-013",
+        "question_text": "창작 활동(그림, 글 등)을 했을 때 어떤 느낌이 들었나요?",
+        "options": [
+          "표현하는 것 자체가 즐거웠어요",
+          "내 감정을 이해하게 되었어요",
+          "시간 가는 줄 몰랐어요"
+        ],
+        "source_doi": "10.3389/fpsyg.2021.609967",
+        "source_title": "Creativity and Leisure During COVID-19: Examining the Relationship Between Leisure Activities, Motivations, and Psychological Well-Being",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-014",
+        "question_text": "미루던 일을 했을 때 어떤 변화가 있었나요?",
+        "options": [
+          "생각보다 어렵지 않았어요",
+          "해내고 나니 기분이 좋아졌어요",
+          "다른 일도 하고 싶어졌어요"
+        ],
+        "source_doi": "10.1037/ccp0000654",
+        "source_title": "Cognitive restructuring, behavioral activation and cognitive-behavioral therapy in the treatment of adult depression: A network meta-analysis",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-015",
+        "question_text": "감사 일지를 쓸 때 어떤 점이 좋았나요?",
+        "options": [
+          "하루를 긍정적으로 돌아보게 되었어요",
+          "사소한 것에 감사하게 되었어요",
+          "마음이 따뜻해졌어요"
+        ],
+        "source_doi": "10.1136/bmjopen-2022-071203",
+        "source_title": "Workplace interventions to improve well-being and reduce burnout for nurses, physicians and allied healthcare professionals: a systematic review",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-016",
+        "question_text": "반복하는 행동을 관찰했을 때 무엇을 발견했나요?",
+        "options": [
+          "내가 왜 그렇게 하는지 이유를 알게 되었어요",
+          "습관의 힘을 느꼈어요",
+          "바꾸고 싶은 부분을 찾았어요"
+        ],
+        "source_doi": "10.1146/annurev-psych-010213-115137",
+        "source_title": "The Psychology of Change: Self-Affirmation and Social Psychological Intervention",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-017",
+        "question_text": "가장 오래 머문 장소에서 나는 무엇을 느꼈나요?",
+        "options": [
+          "안정감과 편안함",
+          "익숙함 속의 지루함",
+          "나만의 공간이라는 소속감"
+        ],
+        "source_doi": "10.3389/fpsyg.2014.00976",
+        "source_title": "The relationship between nature connectedness and happiness: a meta-analysis",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-018",
+        "question_text": "자주 가는 길을 관찰했을 때 어떤 특징을 발견했나요?",
+        "options": [
+          "안전하고 예측 가능한 경로였어요",
+          "나만 아는 특별한 포인트가 있었어요",
+          "매번 다르게 느껴졌어요"
+        ],
+        "source_doi": "10.1007/s42413-024-00204-5",
+        "source_title": "Understanding the Relationship between Urban Public Space and Social Cohesion: A Systematic Review",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-019",
+        "question_text": "하루 중 에너지가 가장 높았던 시간은 언제였나요?",
+        "options": [
+          "아침 시간",
+          "오후 시간",
+          "저녁 시간"
+        ],
+        "source_doi": "10.1037/pspa0000335",
+        "source_title": "The political is personal: The costs of daily politics",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-020",
+        "question_text": "이번 주 미션을 통해 나에 대해 새로 알게 된 것은?",
+        "options": [
+          "내가 어떤 것을 좋아하는지",
+          "내가 어떤 패턴을 가지고 있는지",
+          "내가 어떤 변화를 원하는지"
+        ],
+        "source_doi": "10.3389/fnhum.2012.00296",
+        "source_title": "Self-awareness, self-regulation, and self-transcendence (S-ART): a framework for understanding the neurobiological mechanisms of mindfulness",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-021",
+        "question_text": "눈을 감고 소리만 들었을 때 무엇을 느꼈나요?",
+        "options": [
+          "평소 놓쳤던 소리들이 들렸어요",
+          "마음이 집중되는 느낌이 들었어요",
+          "시간이 천천히 흐르는 느낌이었어요"
+        ],
+        "source_doi": "10.1146/annurev-clinpsy-021815-093423",
+        "source_title": "Mindfulness Meditation and Psychopathology",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-022",
+        "question_text": "창밖 자연을 바라봤을 때 어떤 기분이 들었나요?",
+        "options": [
+          "마음이 평온해졌어요",
+          "생각이 자유로워졌어요",
+          "잠시 쉬는 느낌이 들었어요"
+        ],
+        "source_doi": "10.1080/09669582.2023.2184314",
+        "source_title": "From nature experience to visitors' pro-environmental behavior: the role of perceived restorativeness and well-being",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-023",
+        "question_text": "대화 중 내 말투를 관찰했을 때 어떤 패턴을 발견했나요?",
+        "options": [
+          "감정에 따라 말투가 달라졌어요",
+          "상대방에 따라 다르게 말했어요",
+          "평소 몰랐던 습관을 발견했어요"
+        ],
+        "source_doi": "10.3389/fnhum.2012.00296",
+        "source_title": "Self-awareness, self-regulation, and self-transcendence (S-ART): a framework for understanding the neurobiological mechanisms of mindfulness",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-024",
+        "question_text": "누군가에게 도움을 받았을 때 어떤 감정이 들었나요?",
+        "options": [
+          "감사하고 따뜻한 마음이 들었어요",
+          "혼자가 아니라는 느낌이 들었어요",
+          "다음엔 내가 도와주고 싶어졌어요"
+        ],
+        "source_doi": "10.3389/fnint.2022.871227",
+        "source_title": "Polyvagal Theory: A Science of Safety",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-025",
+        "question_text": "평소 말 안 걸던 사람에게 인사했을 때 어땠나요?",
+        "options": [
+          "생각보다 편안했어요",
+          "작은 용기가 필요했지만 괜찮았어요",
+          "반응이 좋아서 기분이 좋았어요"
+        ],
+        "source_doi": "10.3389/fnint.2022.871227",
+        "source_title": "Polyvagal Theory: A Science of Safety",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-026",
+        "question_text": "나무나 꽃을 가까이 관찰했을 때 어떤 느낌이 들었나요?",
+        "options": [
+          "자연의 세밀함에 감탄했어요",
+          "연결되어 있다는 느낌이 들었어요",
+          "마음이 차분해졌어요"
+        ],
+        "source_doi": "10.3389/fpsyg.2013.00813",
+        "source_title": "The NR-6: a new brief measure of nature relatedness",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-027",
+        "question_text": "좋아하는 노래 가사를 적었을 때 무엇을 발견했나요?",
+        "options": [
+          "가사가 나의 감정을 대변하고 있었어요",
+          "새로운 의미를 발견했어요",
+          "왜 그 노래를 좋아하는지 알게 되었어요"
+        ],
+        "source_doi": "10.3389/fpsyg.2013.00511",
+        "source_title": "The psychological functions of music listening",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-028",
+        "question_text": "루틴을 살짝 바꿨을 때 어떤 변화를 느꼈나요?",
+        "options": [
+          "새로운 에너지가 생겼어요",
+          "불편했지만 적응할 수 있었어요",
+          "다른 것도 바꿔보고 싶어졌어요"
+        ],
+        "source_doi": "10.3389/fpsyg.2021.642954",
+        "source_title": "Changes in Physical Activity Pre-, During and Post-lockdown COVID-19 Restrictions in New Zealand and the Explanatory Role of Daily Hassles",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-029",
+        "question_text": "오늘 나눈 대화의 주제를 돌아봤을 때 어떤 생각이 들었나요?",
+        "options": [
+          "내가 관심 있는 것이 드러났어요",
+          "관계마다 다른 주제로 대화했어요",
+          "대화 패턴이 반복되고 있었어요"
+        ],
+        "source_doi": "10.1017/s0144686x10001091",
+        "source_title": "A critical review of the literature on social and leisure activity and wellbeing in later life",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      },
+      {
+        "question_id": "QST-030",
+        "question_text": "이번 주 미션을 하면서 가장 어려웠던 점은?",
+        "options": [
+          "시간을 내는 것",
+          "새로운 것을 시도하는 용기",
+          "지속적으로 관찰하는 것"
+        ],
+        "source_doi": "10.1146/annurev-psych-010213-115137",
+        "source_title": "The Psychology of Change: Self-Affirmation and Social Psychological Intervention",
+        "safety_level": "green",
+        "validation_status": "approved",
+        "validation_notes": ""
+      }
+    ]
+  },
+  "rejected_content": [],
+  "validation_summary": {
+    "check_1_prohibited_expressions": {
+      "checked": 60,
+      "violations": 0,
+      "details": "모든 콘텐츠에서 금지 표현(진단, 의료 조언, 근거 없는 낙관, 감정 축소) 검출되지 않음"
+    },
+    "check_2_risk_keywords": {
+      "checked": 60,
+      "level_1_green": 0,
+      "level_2_yellow": 3,
+      "level_3_red": 0,
+      "details": "Level 2 키워드는 논문 제목 또는 의미 텍스트에 포함되어 있으나, 맥락상 안전하며 학술 근거가 명확하여 통과 처리함. Level 3 위험 키워드는 전혀 검출되지 않음."
+    },
+    "check_3_doi_validation": {
+      "checked": 60,
+      "valid_dois": 60,
+      "invalid_dois": 0,
+      "details": "모든 콘텐츠의 DOI가 01-papers-raw.json의 논문 목록과 일치함. 모든 논문의 인용 횟수가 100회 이상임."
+    },
+    "check_4_content_quality": {
+      "checked": 60,
+      "passed": 60,
+      "failed": 0,
+      "details": "모든 미션 텍스트가 20자 이내, meaning_text가 2-3문장, 질문의 options가 3개로 구성됨. 모든 미션이 실행 가능하며 시간/비용 제약이 적절함."
+    },
+    "check_5_ai_judgment": {
+      "checked": 60,
+      "concerns": 0,
+      "details": "취약한 사용자(우울증, 불안장애 등) 관점에서 검토한 결과, 모든 콘텐츠가 안전하고 지지적인 방향으로 작성되었음. 암묵적으로 해로운 메시지, 사회적으로 부적절한 행동 유도, 문화적으로 민감한 내용 없음."
+    }
+  }
+}

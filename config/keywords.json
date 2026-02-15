@@ -1,0 +1,38 @@
+{
+  "primary_keywords": [
+    "self-discovery",
+    "behavioral activation",
+    "journaling therapy",
+    "place attachment",
+    "sensory awareness",
+    "habit formation"
+  ],
+  "secondary_keywords": [
+    "mindfulness",
+    "self-reflection",
+    "experiential learning",
+    "environmental psychology",
+    "positive psychology",
+    "introspection"
+  ],
+  "mission_categories": {
+    "observe": {
+      "description": "이미 하는 것 속에서 '왜?'를 발견하는 미션",
+      "related_keywords": [
+        "routine observation",
+        "place attachment",
+        "sensory awareness",
+        "habit patterns"
+      ]
+    },
+    "explore": {
+      "description": "작은 새로운 경험으로 몰랐던 나를 발견하는 미션",
+      "related_keywords": [
+        "new experiences",
+        "behavioral experiments",
+        "environmental changes",
+        "social interactions"
+      ]
+    }
+  }
+}

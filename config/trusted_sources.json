@@ -1,0 +1,40 @@
+{
+  "trusted_journals": [
+    "Cochrane Database of Systematic Reviews",
+    "Nature",
+    "Science",
+    "The Lancet",
+    "JAMA",
+    "BMJ",
+    "Psychological Bulletin",
+    "Annual Review of Psychology",
+    "Clinical Psychology Review",
+    "Journal of Personality and Social Psychology",
+    "Personality and Social Psychology Bulletin",
+    "Journal of Consulting and Clinical Psychology",
+    "Behaviour Research and Therapy",
+    "Journal of Environmental Psychology",
+    "Mindfulness"
+  ],
+  "trusted_organizations": [
+    "American Psychological Association",
+    "World Health Organization",
+    "National Institute of Mental Health",
+    "Cochrane Collaboration"
+  ],
+  "preferred_publication_types": [
+    "meta-analysis",
+    "systematic review",
+    "randomized controlled trial",
+    "longitudinal study"
+  ],
+  "minimum_citation_count": 100,
+  "year_range": {
+    "min": 2010,
+    "max": 2025
+  },
+  "api_endpoints": {
+    "semantic_scholar": "https://api.semanticscholar.org/graph/v1/paper/search",
+    "openalex": "https://api.openalex.org/works"
+  }
+}

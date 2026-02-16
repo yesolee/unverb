@@ -1,33 +1,45 @@
 # unverb 프로젝트
 
 ## 프로젝트 요약
-자기 발견 앱 — 행동 미션 수행 + 그림일기 기록 + AI 피드백 + 주간 동사 발견
+자기 발견 앱 — 행동 미션 수행 + 사진 기록 + AI 피드백 + 주간 동사 발견
 
-## Phase 0 목표: 콘텐츠 DB 구축
-학술 논문 50편에서 검증된 콘텐츠를 추출하여 신뢰할 수 있는 미션 DB를 만든다.
+## 현재 상태: Phase 1 Week 1 완료
 
-**목표 콘텐츠**:
-- 관찰 미션 15개 (이미 하는 것 속에서 발견)
-- 탐색 미션 15개 (작은 새로운 경험)
-- 성찰 질문 30개 (탭 선택지 2-3개씩)
-- **모든 콘텐츠에 학술 출처(DOI) 필수**
+### 완료된 것
+- **Phase 0**: 콘텐츠 DB 구축 완료 (논문 50편, 미션 30개, 질문 30개, 안전 검증)
+- **Phase 1 Week 1**: Expo 앱 초기화 + Supabase 연동 + Google 로그인 + 미션 화면 + 온보딩
 
-## 서브에이전트 시스템 (4개)
+### 다음 작업: Phase 1 Week 2
+- 기록 화면 (사진 + 텍스트)
+- 성찰 질문 화면
+- AI 피드백 (mock → Claude API)
 
-### 🔵 paper-collector
-논문 수집 에이전트. Semantic Scholar/OpenAlex API로 신뢰할 수 있는 논문 50편을 수집한다.
-- 결과: `content/01-papers-raw.json`
+## 기술 스택
+- Frontend: Expo (React Native) + TypeScript + NativeWind + Expo Router v6
+- Backend: Supabase (PostgreSQL, Auth, Storage)
+- AI: Claude API (피드백) — mock → 직접호출 → Edge Function
+- 인증: Google OAuth (Supabase Auth)
 
-### 🟢 content-extractor
-콘텐츠 추출 에이전트. 논문 abstract에서 미션과 질문을 추출하여 변환한다.
-- 결과: `content/02-content-extracted.json`
-
-### 🟡 safety-validator
-안전 검증 에이전트. 금지 표현, 위험 키워드, 출처를 검증한다.
-- 결과: `content/03-content-validated.json`
-
-### 🚀 pipeline-runner
-오케스트레이터. 3개 에이전트를 순차 실행하고 결과를 종합한다.
+## 디렉토리 구조
+```
+unverb/
+├── app/                    # Expo 앱 (프론트엔드)
+│   ├── app/                # Expo Router 페이지
+│   │   ├── _layout.tsx     # 인증 + 온보딩 가드
+│   │   ├── (auth)/         # 로그인
+│   │   ├── (onboarding)/   # 앱 소개 스와이프
+│   │   └── (tabs)/         # 4탭 (미션/기록/한주/마이)
+│   └── src/                # 소스 코드
+│       ├── components/     # UI 컴포넌트
+│       ├── hooks/          # useAuth, useProfile, useMission
+│       ├── lib/            # supabase.ts, mission-assignment.ts
+│       └── types/          # TypeScript 타입
+├── supabase/migrations/    # DB 스키마 (SQL)
+├── scripts/                # 시드 스크립트
+├── content/                # Phase 0 콘텐츠 JSON
+├── config/                 # 안전 규칙, 키워드 설정
+└── docs/                   # 기획 문서 7개
+```
 
 ## 안전 규칙 (핵심)
 
@@ -42,22 +54,14 @@
 - Level 2 (yellow): 우울, 불안, 무기력
 - Level 3 (red): 죽고싶, 자해, 끝내고싶 → 즉시 제거
 
-## 콘텐츠 구조
-
-### 미션 구조
-```
-미션 = 행동 지시(20자 이내) + 의미(2-3문장) + 출처(DOI)
-```
-
-### JSON 스키마 참고
-- config/keywords.json — 검색 키워드
-- config/safety_rules.json — 안전 규칙 상세
-- config/trusted_sources.json — 신뢰 소스 목록
-
-## 기술 스택
-- Frontend: Expo (React Native) + TypeScript + NativeWind
-- Backend: Supabase
-- AI: Claude Code 서브에이전트 (프로토타입) → Claude Agent SDK (프로덕션)
+## 콘텐츠 톤 수정 필요 (TODO)
+Phase 0에서 AI가 논문 abstract 기반으로 자동 생성한 미션 의미(meaning_text)의 톤이
+앱 목적과 맞지 않는 경우가 있음.
+- **문제**: "심리적 회복", "스트레스 감소" 같은 치유/힐링 톤
+- **앱 목적**: 자기 발견, 패턴 인식, 무의식적 취향 발견
+- **예시**: "심리적 회복이 시작될 수 있어요" → "나의 무의식적 취향을 발견할 수 있어요"
+- **작업**: content/03-content-validated.json의 meaning_text 전수 검토 + 톤 통일
+- **시점**: Phase 1 완료 후 또는 별도 콘텐츠 리뷰 스프린트
 
 ## 코딩 규칙
 - 언어: 한국어 (코드 주석, 커밋, 문서)

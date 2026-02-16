@@ -33,7 +33,7 @@ export default function RootLayout() {
     } else if (profile && !profile.onboarding_completed && !inOnboardingGroup) {
       // 온보딩 미완료 → 온보딩으로
       router.replace("/(onboarding)");
-    } else if (profile && profile.onboarding_completed && !inTabs) {
+    } else if (profile && profile.onboarding_completed && !inTabs && !inOnboardingGroup) {
       // 온보딩 완료인데 탭 밖(루트 등) → 탭으로
       router.replace("/(tabs)/mission");
     }

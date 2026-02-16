@@ -32,6 +32,7 @@ CREATE TABLE missions (
   source_title TEXT NOT NULL,
   category TEXT NOT NULL,
   safety_level TEXT NOT NULL DEFAULT 'green',
+  hints JSONB DEFAULT '[]'::jsonb,
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
@@ -49,6 +50,7 @@ CREATE TABLE questions (
   source_doi TEXT NOT NULL,
   source_title TEXT NOT NULL,
   category TEXT,
+  followup_hints JSONB DEFAULT '[]'::jsonb,
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
@@ -139,6 +141,8 @@ ALTER TABLE ai_feedbacks ENABLE ROW LEVEL SECURITY;
 
 CREATE POLICY "본인 피드백 조회" ON ai_feedbacks
   FOR SELECT USING (auth.uid() = user_id);
+CREATE POLICY "본인 피드백 생성" ON ai_feedbacks
+  FOR INSERT WITH CHECK (auth.uid() = user_id);
 
 -- ================================================
 -- Storage 버킷

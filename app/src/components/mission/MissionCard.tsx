@@ -41,6 +41,20 @@ export default function MissionCard({ mission, onToggleComplete }: Props) {
         {m.meaning_text}
       </Text>
 
+      {/* 관찰/탐색 포인트 */}
+      {m.hints && m.hints.length > 0 && (
+        <View className="bg-gray-50 rounded-xl p-4 mb-4">
+          <Text className="text-sm font-medium text-gray-700 mb-2">
+            {isObserve ? "🔍 관찰 포인트" : "🌱 탐색 포인트"}
+          </Text>
+          {m.hints.map((hint, index) => (
+            <Text key={index} className="text-sm text-gray-600 leading-5 mb-1">
+              • {hint}
+            </Text>
+          ))}
+        </View>
+      )}
+
       {/* 하단: 출처 + 완료 버튼 */}
       <View className="flex-row justify-between items-center mt-2">
         <Pressable onPress={() => setShowSource(true)}>

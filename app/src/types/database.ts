@@ -37,6 +37,7 @@ export type Database = {
           source_title: string;
           category: string;
           safety_level: string;
+          hints: string[];
           created_at: string;
         };
         Insert: {
@@ -53,6 +54,7 @@ export type Database = {
           mission_text?: string;
           meaning_text?: string;
           safety_level?: string;
+          hints?: string[];
         };
       };
       questions: {
@@ -64,6 +66,7 @@ export type Database = {
           source_doi: string;
           source_title: string;
           category: string | null;
+          followup_hints: string[];
           created_at: string;
         };
         Insert: {
@@ -73,6 +76,7 @@ export type Database = {
           source_doi: string;
           source_title: string;
           category?: string | null;
+          followup_hints?: string[];
         };
         Update: {
           question_text?: string;

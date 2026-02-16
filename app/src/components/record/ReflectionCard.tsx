@@ -53,6 +53,20 @@ export default function ReflectionCard({ question, selectedOption, onSelectOptio
         })}
       </View>
 
+      {/* 파생 질문 — 옵션 선택 후 표시 */}
+      {selectedOption && question.followup_hints && question.followup_hints.length > 0 && (
+        <View className="bg-amber-50 rounded-xl p-4 mb-4">
+          <Text className="text-sm font-medium text-amber-800 mb-2">
+            💡 조금 더 생각해보세요
+          </Text>
+          {question.followup_hints.map((hint, index) => (
+            <Text key={index} className="text-sm text-amber-700 leading-5 mb-1">
+              • {hint}
+            </Text>
+          ))}
+        </View>
+      )}
+
       {/* 하단: 출처 정보 */}
       <View className="pt-4 border-t border-gray-100">
         <Text className="text-sm text-gray-400">

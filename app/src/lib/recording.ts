@@ -25,7 +25,7 @@ export async function uploadPhoto(
   const blob = await response.blob();
 
   const { error } = await supabase.storage
-    .from("recordings")
+    .from("recording-photos")
     .upload(fileName, blob, {
       contentType: "image/jpeg",
       upsert: false,
@@ -37,7 +37,7 @@ export async function uploadPhoto(
 
   // public URL 생성
   const { data: urlData } = supabase.storage
-    .from("recordings")
+    .from("recording-photos")
     .getPublicUrl(fileName);
 
   return urlData.publicUrl;

@@ -16,20 +16,26 @@ export default function RootLayout() {
 
     const inAuthGroup = segments[0] === "(auth)";
     const inOnboardingGroup = segments[0] === "(onboarding)";
+    const inTabs = segments[0] === "(tabs)";
 
-    if (!session && !inAuthGroup) {
+    if (!session) {
       // 미인증 → 로그인으로
-      router.replace("/(auth)/login");
-    } else if (session && inAuthGroup) {
-      // 인증 완료 → 온보딩 여부 확인
+      if (!inAuthGroup) {
+        router.replace("/(auth)/login");
+      }
+    } else if (inAuthGroup) {
+      // 인증 완료인데 로그인 화면 → 온보딩 또는 탭으로
       if (profile && !profile.onboarding_completed) {
         router.replace("/(onboarding)");
       } else {
-        router.replace("/(tabs)/mission/index");
+        router.replace("/(tabs)/mission");
       }
-    } else if (session && !inOnboardingGroup && !inAuthGroup && profile && !profile.onboarding_completed) {
-      // 온보딩 미완료인데 탭에 있으면 → 온보딩으로
+    } else if (profile && !profile.onboarding_completed && !inOnboardingGroup) {
+      // 온보딩 미완료 → 온보딩으로
       router.replace("/(onboarding)");
+    } else if (profile && profile.onboarding_completed && !inTabs) {
+      // 온보딩 완료인데 탭 밖(루트 등) → 탭으로
+      router.replace("/(tabs)/mission");
     }
   }, [session, authLoading, profileLoading, profile, segments]);
 

@@ -1,6 +1,6 @@
 // 기록 화면 — 스텝 기반 상태 머신
 // idle → recording → reflection → feedback → done
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import {
   View,
   Text,
@@ -12,6 +12,7 @@ import {
   Platform,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { useNavigation } from "expo-router";
 import { useMission } from "@/hooks/useMission";
 import { useRecording } from "@/hooks/useRecording";
 import { useReflection } from "@/hooks/useReflection";
@@ -23,8 +24,17 @@ import CrisisScreen from "@/components/record/CrisisScreen";
 import type { RecordStep } from "@/types/database";
 
 export default function RecordScreen() {
-  const { mission, loading: missionLoading } = useMission();
+  const { mission, loading: missionLoading, refetch } = useMission();
+  const navigation = useNavigation();
   const [step, setStep] = useState<RecordStep>("idle");
+
+  // 탭 포커스 시 미션 데이터 새로고침
+  useEffect(() => {
+    const unsubscribe = navigation.addListener("focus", () => {
+      refetch();
+    });
+    return unsubscribe;
+  }, [navigation, refetch]);
 
   // 훅 초기화
   const recording = useRecording(mission?.id ?? null);

@@ -177,8 +177,29 @@ export type Question = Database["public"]["Tables"]["questions"]["Row"];
 export type UserMission = Database["public"]["Tables"]["user_missions"]["Row"];
 export type Profile = Database["public"]["Tables"]["profiles"]["Row"];
 export type Recording = Database["public"]["Tables"]["recordings"]["Row"];
+export type UserReflection = Database["public"]["Tables"]["user_reflections"]["Row"];
+export type AiFeedback = Database["public"]["Tables"]["ai_feedbacks"]["Row"];
 
 // 미션 + 조인 데이터
 export type UserMissionWithDetails = UserMission & {
   missions: Mission;
 };
+
+// AI 피드백 응답 구조 (공감 → 발견 → 힌트)
+export type AiFeedbackResponse = {
+  empathy: string;
+  discovery: string;
+  hint: string;
+};
+
+// 위기 감지 결과
+export type CrisisDetectionResult = {
+  crisis_detected: boolean;
+  level: 1 | 2 | 3;
+  action: "empathy_only" | "suggest_support" | "show_crisis_screen";
+  matched_keyword?: string;
+  helplines?: { name: string; number: string }[];
+};
+
+// 기록 플로우 스텝
+export type RecordStep = "idle" | "recording" | "reflection" | "feedback" | "done";

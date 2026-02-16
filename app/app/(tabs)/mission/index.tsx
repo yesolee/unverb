@@ -1,9 +1,11 @@
-import { View, Text, ActivityIndicator, ScrollView } from "react-native";
+import { View, Text, ActivityIndicator, ScrollView, Pressable } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { useRouter } from "expo-router";
 import { useMission } from "@/hooks/useMission";
 import MissionCard from "@/components/mission/MissionCard";
 
 export default function MissionScreen() {
+  const router = useRouter();
   const { mission, loading, error, toggleComplete } = useMission();
 
   if (loading) {
@@ -33,7 +35,21 @@ export default function MissionScreen() {
 
         {/* 미션 카드 */}
         {mission ? (
-          <MissionCard mission={mission} onToggleComplete={toggleComplete} />
+          <>
+            <MissionCard mission={mission} onToggleComplete={toggleComplete} />
+
+            {/* 미션 완료 후 기록하기 CTA */}
+            {mission.completed && (
+              <Pressable
+                onPress={() => router.push("/(tabs)/record")}
+                className="bg-gray-900 py-4 rounded-xl items-center mt-6"
+              >
+                <Text className="text-base font-semibold text-white">
+                  기록하러 가기 ✏️
+                </Text>
+              </Pressable>
+            )}
+          </>
         ) : (
           <View className="bg-white rounded-2xl p-6 items-center">
             <Text className="text-gray-500">미션을 준비하고 있어요...</Text>
